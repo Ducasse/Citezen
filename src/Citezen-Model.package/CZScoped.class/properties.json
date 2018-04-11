@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "cdlm 12/26/2007 23:29",
+	"super" : "Object",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scope"
+	],
+	"name" : "CZScoped",
+	"type" : "normal"
+}

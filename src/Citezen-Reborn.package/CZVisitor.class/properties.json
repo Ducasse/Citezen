@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Citezen-Reborn-Core-Visitor",
+	"classinstvars" : [ ],
+	"pools" : [
+		"CZPool"
+	],
+	"classvars" : [ ],
+	"instvars" : [
+		"expandOption",
+		"fieldOrder"
+	],
+	"name" : "CZVisitor",
+	"type" : "normal"
+}

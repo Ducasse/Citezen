@@ -1,0 +1,3 @@
+generated-reduction actions
+reduceActionForGroupXXXXXCommentDeclarationXXXMacroDeclarationXXXEntryDeclaration2: nodes
+	^ nodes at: 1

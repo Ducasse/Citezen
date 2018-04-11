@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StephaneDucasse 12/13/2011 19:30",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZPharoPubFilter",
+	"type" : "normal"
+}

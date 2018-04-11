@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Citezen-Reborn-DocumentBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibset"
+	],
+	"name" : "CZDocBuilderTest",
+	"type" : "normal"
+}

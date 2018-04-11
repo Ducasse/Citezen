@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "cdlm 12/26/2007 23:01",
+	"super" : "SmaCCParser",
+	"category" : "Citezen-Parsers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZAuthorParser",
+	"type" : "normal"
+}

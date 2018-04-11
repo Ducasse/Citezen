@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Citezen-Checking",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileContent",
+		"rules",
+		"eof",
+		"parser",
+		"errorStream",
+		"entries",
+		"typeFieldsMatching",
+		"keys",
+		"macros",
+		"macrosUsage",
+		"bibtexTypes",
+		"macroKeys",
+		"fieldKeys",
+		"entryKeys",
+		"index",
+		"warnings"
+	],
+	"name" : "CZChecker",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+A CZBibsetGathererTest is a test suite

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BibPhraseVisitor",
+	"category" : "Citezen-Rendering",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"library",
+		"currentEntry"
+	],
+	"name" : "BibRenderer",
+	"type" : "normal"
+}

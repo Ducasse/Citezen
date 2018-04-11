@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZEntryQuery",
+	"category" : "Citezen-Query",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"field"
+	],
+	"name" : "CZFieldQuery",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+Just overloads isUndefined. It's used to access to an inexistant field.

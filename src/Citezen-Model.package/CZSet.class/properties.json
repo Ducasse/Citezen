@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZScoped",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"macros",
+		"entries"
+	],
+	"name" : "CZSet",
+	"type" : "normal"
+}

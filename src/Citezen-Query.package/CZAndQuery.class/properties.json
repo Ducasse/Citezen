@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AdrienBarreau 5/26/2010 15:17",
+	"super" : "CZQuery",
+	"category" : "Citezen-Query",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"leftAnd",
+		"rightAnd"
+	],
+	"name" : "CZAndQuery",
+	"type" : "normal"
+}

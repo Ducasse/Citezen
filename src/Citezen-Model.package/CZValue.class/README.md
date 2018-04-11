@@ -1,0 +1,1 @@
+Hierarchy of values that a field can hold. Handles bib-specific stuff like expansion of values like macro references without overloading base classes.

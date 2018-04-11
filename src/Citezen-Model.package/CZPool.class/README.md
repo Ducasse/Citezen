@@ -1,0 +1,1 @@
+Defines all the constants for fields and types of entries.

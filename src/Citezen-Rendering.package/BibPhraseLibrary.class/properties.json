@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "cdlm 7/22/2007 16:52",
+	"super" : "Object",
+	"category" : "Citezen-Rendering",
+	"classinstvars" : [
+		"defaultInstance",
+		"monthMappings"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"phrases"
+	],
+	"name" : "BibPhraseLibrary",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+setting
+french 
+
+	language := French

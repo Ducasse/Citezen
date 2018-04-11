@@ -1,0 +1,3 @@
+generate
+extension
+	^ '.txt'

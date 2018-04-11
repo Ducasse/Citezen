@@ -1,0 +1,2 @@
+Parser for the author or editor field, returning an OrderedCollection of CZAuthor instances.
+The parsed syntax is the one described in the BibTeX documentation, i.e. "and"-separated names, each name being of the form "First Middle von Last" or "von Last, First Middle"; the latter form being the canonic and unambiguous one.

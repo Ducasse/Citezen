@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Citezen-Query",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"CZFalseQueryInstance",
+		"CZTrueQueryInstance"
+	],
+	"instvars" : [ ],
+	"name" : "CZQuery",
+	"type" : "normal"
+}

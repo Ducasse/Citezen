@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "cdlm 6/27/2007 14:49",
+	"super" : "BibPhraseVisitor",
+	"category" : "Citezen-Rendering",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry"
+	],
+	"name" : "BibPhrasePrunableEvaluator",
+	"type" : "normal"
+}

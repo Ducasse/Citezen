@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZDelimitedStringScanner",
+	"category" : "Citezen-Parsers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZAuxScanner",
+	"type" : "normal"
+}

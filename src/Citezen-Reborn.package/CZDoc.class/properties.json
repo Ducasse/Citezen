@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StephaneDucasse 8/7/2016 09:27",
+	"super" : "Object",
+	"category" : "Citezen-Reborn-DocModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elements",
+		"title",
+		"header",
+		"footer"
+	],
+	"name" : "CZDoc",
+	"type" : "normal"
+}

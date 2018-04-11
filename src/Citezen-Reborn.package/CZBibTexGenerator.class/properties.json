@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZFileFormatGenerator",
+	"category" : "Citezen-Reborn-FormattingVisitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZBibTexGenerator",
+	"type" : "normal"
+}

@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "StephaneDucasse 8/7/2016 10:50",
+	"super" : "Object",
+	"category" : "Citezen-Reborn-DocumentBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"doc",
+		"authorMatchingString",
+		"originalBibSet",
+		"workingBibSet",
+		"localization",
+		"noEmptySection",
+		"shouldFilterNonPublic",
+		"keysOfBlackListedEntries",
+		"fieldOrder"
+	],
+	"name" : "CZDocBuilder",
+	"type" : "normal"
+}

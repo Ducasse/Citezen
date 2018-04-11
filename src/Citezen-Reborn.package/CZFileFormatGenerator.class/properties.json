@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StephaneDucasse 8/7/2016 10:18",
+	"super" : "CZVisitor",
+	"category" : "Citezen-Reborn-FormattingVisitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"outputStream",
+		"fieldSeparatorString"
+	],
+	"name" : "CZFileFormatGenerator",
+	"type" : "normal"
+}

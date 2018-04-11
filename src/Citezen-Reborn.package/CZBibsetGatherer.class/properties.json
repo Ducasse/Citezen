@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZVisitor",
+	"category" : "Citezen-Reborn-Core-Visitor",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibset"
+	],
+	"name" : "CZBibsetGatherer",
+	"type" : "normal"
+}

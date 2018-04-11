@@ -1,0 +1,4 @@
+hackish
+bibtexFileName
+
+	^ 'rmod.bib'

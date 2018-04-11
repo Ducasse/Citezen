@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "cdlm 12/26/2007 23:23",
+	"super" : "SmaCCParser",
+	"category" : "Citezen-Parsers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"citations",
+		"style",
+		"databases"
+	],
+	"name" : "CZAuxParser",
+	"type" : "normal"
+}

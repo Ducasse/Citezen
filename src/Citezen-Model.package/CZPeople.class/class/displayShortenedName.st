@@ -1,0 +1,3 @@
+customize
+displayShortenedName
+	^ #shortenedName

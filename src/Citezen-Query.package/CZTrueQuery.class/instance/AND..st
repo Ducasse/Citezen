@@ -1,0 +1,3 @@
+public
+AND: aQuery
+	^ aQuery

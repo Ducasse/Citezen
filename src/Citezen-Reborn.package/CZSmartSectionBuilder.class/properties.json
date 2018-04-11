@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "StephaneDucasse 8/7/2016 22:12",
+	"super" : "CZPillarDocBuilder",
+	"category" : "Citezen-Reborn-DocumentBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topics"
+	],
+	"name" : "CZSmartSectionBuilder",
+	"type" : "normal"
+}

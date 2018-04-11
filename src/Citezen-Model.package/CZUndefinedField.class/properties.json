@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AdrienBarreau 5/26/2010 15:03",
+	"super" : "CZField",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZUndefinedField",
+	"type" : "normal"
+}

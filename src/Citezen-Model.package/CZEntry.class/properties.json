@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZScoped",
+	"category" : "Citezen-Model",
+	"classinstvars" : [
+		"neededFieldsDictionary",
+		"optionalFieldsDictionary",
+		"teamMemberPatterns"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"key",
+		"fields"
+	],
+	"name" : "CZEntry",
+	"type" : "normal"
+}

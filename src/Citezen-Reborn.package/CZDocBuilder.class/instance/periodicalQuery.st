@@ -1,0 +1,3 @@
+queries
+periodicalQuery
+	^ CZQuery periodical

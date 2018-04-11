@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StephaneDucasse 6/25/2012 22:18",
+	"super" : "CZDocBuilder",
+	"category" : "Citezen-Reborn-DocumentBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"noHeader",
+		"xhtml"
+	],
+	"name" : "CZSingleAuthorDocBuilder",
+	"type" : "normal"
+}

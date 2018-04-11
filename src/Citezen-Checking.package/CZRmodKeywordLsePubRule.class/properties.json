@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZRmodRule",
+	"category" : "Citezen-Checking",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZRmodKeywordLsePubRule",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+queries
+nationalJournalQuery
+	^ CZQuery nationalJournal

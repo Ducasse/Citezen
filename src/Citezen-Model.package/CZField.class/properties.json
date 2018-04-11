@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZScoped",
+	"category" : "Citezen-Model",
+	"classinstvars" : [
+		"valueClasses"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"value"
+	],
+	"name" : "CZField",
+	"type" : "normal"
+}

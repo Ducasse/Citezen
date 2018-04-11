@@ -1,0 +1,4 @@
+testing
+shouldFilterNonPublic
+
+	^ shouldFilterNonPublic

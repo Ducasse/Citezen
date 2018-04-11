@@ -1,0 +1,3 @@
+customize
+displayFullName
+	^ #fullName

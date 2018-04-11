@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibset",
+		"dispatchBlock",
+		"outputFilesDescription",
+		"blackListedFields"
+	],
+	"name" : "CZFileDispatcher",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+setup
+rendererClass
+	self shouldBeImplemented

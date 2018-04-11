@@ -1,0 +1,3 @@
+default
+fieldsOfThisFormat
+	^ #(author editor)

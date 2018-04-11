@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BibTextRenderer",
+	"category" : "Citezen-Rendering",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstBlock"
+	],
+	"name" : "BibBblRenderer",
+	"type" : "normal"
+}

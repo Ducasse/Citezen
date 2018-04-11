@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StephaneDucasse 8/23/2015 20:30",
+	"super" : "Object",
+	"category" : "Citezen-Reborn-DocumentBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZREADME",
+	"type" : "normal"
+}

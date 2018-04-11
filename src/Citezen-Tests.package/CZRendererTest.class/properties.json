@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Citezen-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry",
+		"renderer",
+		"result",
+		"entry2"
+	],
+	"name" : "CZRendererTest",
+	"type" : "normal"
+}

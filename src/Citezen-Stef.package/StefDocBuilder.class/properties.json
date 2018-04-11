@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StephaneDucasse 9/3/2015 20:18",
+	"super" : "Object",
+	"category" : "Citezen-Stef",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StefDocBuilder",
+	"type" : "normal"
+}

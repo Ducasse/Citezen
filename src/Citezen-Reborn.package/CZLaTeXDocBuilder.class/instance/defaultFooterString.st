@@ -1,0 +1,3 @@
+building
+defaultFooterString
+	^ '\end{document}'

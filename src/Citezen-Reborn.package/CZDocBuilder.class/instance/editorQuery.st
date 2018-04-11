@@ -1,0 +1,4 @@
+queries
+editorQuery
+	^ CZQuery editor
+	

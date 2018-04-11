@@ -1,0 +1,3 @@
+generated-reduction actions
+reduceActionForRepeatXXGroupXXXXXCommentDeclarationXXXMacroDeclarationXXXEntryDeclaration1: nodes
+	^ OrderedCollection new

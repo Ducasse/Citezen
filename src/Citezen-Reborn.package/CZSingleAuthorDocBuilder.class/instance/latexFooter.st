@@ -1,0 +1,3 @@
+latex
+latexFooter
+	^ '\end{document}'

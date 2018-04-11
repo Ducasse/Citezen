@@ -1,0 +1,3 @@
+queries
+teamEntryQuery
+	^ CZQuery teamEntry

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "StephaneDucasse 8/9/2016 21:05",
+	"super" : "CZAbstractFileFormatGeneratorTest",
+	"category" : "Citezen-Reborn-FormattingVisitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry",
+		"entry2",
+		"renderer",
+		"bibset",
+		"uqui2"
+	],
+	"name" : "CZBblGeneratorTest",
+	"type" : "normal"
+}

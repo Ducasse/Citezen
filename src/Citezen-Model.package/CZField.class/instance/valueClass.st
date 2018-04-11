@@ -1,0 +1,3 @@
+accessing
+valueClass
+	^ value class

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "cdlm 11/9/2007 17:37",
+	"super" : "TestResource",
+	"category" : "Citezen-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibset"
+	],
+	"name" : "CZTestResource",
+	"type" : "normal"
+}

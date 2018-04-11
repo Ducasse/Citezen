@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BibPhrase",
+	"category" : "Citezen-Rendering",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"isBlock",
+		"subphrase"
+	],
+	"name" : "BibNamedPhrase",
+	"type" : "normal"
+}

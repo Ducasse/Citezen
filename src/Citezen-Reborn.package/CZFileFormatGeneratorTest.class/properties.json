@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZAbstractFileFormatGeneratorTest",
+	"category" : "Citezen-Reborn-FormattingVisitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry",
+		"entry2",
+		"bibset"
+	],
+	"name" : "CZFileFormatGeneratorTest",
+	"type" : "normal"
+}

@@ -1,0 +1,2 @@
+A CZString represents an author or editor value in a BibTeX field.
+It stores references to CZAuthor objects. It can also store the display option to choose what author representation should be returned by the expanded message

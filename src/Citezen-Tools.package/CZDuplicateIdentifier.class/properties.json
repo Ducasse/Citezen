@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibSet",
+		"bibSet2",
+		"prioritaryBibSet",
+		"withoutDuplications",
+		"duplicates"
+	],
+	"name" : "CZDuplicateIdentifier",
+	"type" : "normal"
+}

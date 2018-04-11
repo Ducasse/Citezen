@@ -1,0 +1,3 @@
+generated-reduction actions
+reduceActionForRepeatXXGroupXXXXXXXXXField1: nodes
+	^ OrderedCollection new

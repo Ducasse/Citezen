@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZRendererTest",
+	"category" : "Citezen-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZTextTest",
+	"type" : "normal"
+}

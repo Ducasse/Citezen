@@ -1,0 +1,3 @@
+default
+defaultValue
+	^ self with: ''

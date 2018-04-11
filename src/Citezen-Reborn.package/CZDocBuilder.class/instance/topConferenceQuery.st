@@ -1,0 +1,3 @@
+queries
+topConferenceQuery
+	^ CZQuery topConference

@@ -1,0 +1,4 @@
+public
+value: anObject
+
+	^ true

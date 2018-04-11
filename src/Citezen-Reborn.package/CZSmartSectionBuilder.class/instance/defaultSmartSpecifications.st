@@ -1,0 +1,3 @@
+initialize
+defaultSmartSpecifications
+	^ #(#('Editor' 'Workshop Proceedings ' 'Here are some of the proceedings of workshops and other activities I got over the year.' '*kzEditor*') #('Education' 'Teaching and Educative Support' 'I''m interested in how to teach computer sciences. I supervized Hilaire Fernandes on how computer sciences can support math teaching.' '*kzTeaching*') #('Vulgarisation' 'Computer Science Vulgarisation' 'I wrote several articles around programming language topics for mass journals.' '*kzVulgarisation*'))

@@ -1,0 +1,1 @@
+A BibLiteralPhrase specifies a fixed textual decoration.

@@ -1,0 +1,3 @@
+generation
+teamFor20112016
+	^ #('*Ducasse*' '*Denker*' '*Auverlot*' '*Larcheveque*' '*Anquetil*' '*Govin*' '*Pollet*' '*Abdeen*' '*Laval*' '*Peirs*' '*Falleri*' '*Denier*' '*Marr*' '*Hora*' '*Etien*' '*Blondeau*' '*Casaccio*' '*Bruni*' '*Tesone*' '*Teruel*' '*Polito*' '*Martinez*Peck*' '*Uquillas*' '*Arnaud*' '*Bhatti*U*' '*Fernandes*' '*Razavizadeh*' '*Uquilla*' '*Dias*' '*Cassou*' '*Ryseghem*' '*Papoulias*' '*Demarey*' '*B*ra*' '*Santos*' '*Miranda*')

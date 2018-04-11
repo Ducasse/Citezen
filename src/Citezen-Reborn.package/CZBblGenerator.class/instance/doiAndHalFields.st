@@ -1,0 +1,4 @@
+initialization
+doiAndHalFields
+	^ { DOI . HALID }
+	

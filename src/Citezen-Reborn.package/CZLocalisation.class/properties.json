@@ -1,0 +1,39 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Citezen-Reborn-DocModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Book",
+		"BookChapter",
+		"Booklet",
+		"Deliverable",
+		"English",
+		"French",
+		"HDR",
+		"HandBook",
+		"InternationalConference",
+		"InternationalConferences",
+		"InternationalReview",
+		"InternationalReviewedJournal",
+		"InternationalReviewedWorkshop",
+		"InvitedPaper",
+		"NationalReviewedConference",
+		"NationalReviewedConferences",
+		"NationalReviewedJournal",
+		"NationalWorkshop",
+		"PHDAndHdr",
+		"Periodical",
+		"PhD",
+		"TechnicalReport",
+		"ToolDemo",
+		"TopConferences",
+		"Vulgarisation"
+	],
+	"instvars" : [
+		"language"
+	],
+	"name" : "CZLocalisation",
+	"type" : "normal"
+}

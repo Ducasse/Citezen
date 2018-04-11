@@ -1,0 +1,4 @@
+configuration
+setAuthorDisplayAsShortenedName
+
+	expandOption := #useDisplayShortenedName

@@ -1,0 +1,9 @@
+testing
+testAuthorCommaTwoAuthors
+	| authorString authors |
+	authorString := 'Nierstrasz, Oscar and Ducasse, St\''ephane'.
+	authors := CZAuthorParser parse: authorString.
+	self assert: (authors at: 1) firstNames asArray = #('Oscar' ).
+	self assert: (authors at: 1) lastNames asArray = #('Nierstrasz' ).
+	self assert: (authors at: 2) firstNames asArray = #('St\''ephane' ).
+	self assert: (authors at: 2) lastNames asArray = #('Ducasse' )

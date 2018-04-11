@@ -1,0 +1,3 @@
+queries
+bookQuery
+	^ CZQuery book

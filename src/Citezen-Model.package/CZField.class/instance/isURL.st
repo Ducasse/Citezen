@@ -1,0 +1,4 @@
+testing
+isURL
+
+	^ key = #url

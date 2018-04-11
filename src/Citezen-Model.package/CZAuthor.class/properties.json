@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "cdlm 12/26/2007 23:32",
+	"super" : "Object",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lastNames",
+		"firstNames",
+		"particles",
+		"junior"
+	],
+	"name" : "CZAuthor",
+	"type" : "normal"
+}

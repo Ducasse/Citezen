@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SmaCCParser",
+	"category" : "Citezen-Parsers",
+	"classinstvars" : [
+		"conversionTable"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZAccentuateCharactersParser",
+	"type" : "normal"
+}
