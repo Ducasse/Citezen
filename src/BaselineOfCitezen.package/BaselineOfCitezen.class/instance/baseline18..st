@@ -1,11 +1,8 @@
 baselines
 baseline18: spec
 	<version: '1.8-baseline'>
-
+	
 	spec for: #common do: [
-		spec 
-			baseline: 'Citezen' with: [
-				spec repository: 'github://Ducasse/Citezen' ].
 		spec
 			project: 'SmaCC' with: [
 				spec
