@@ -3,12 +3,11 @@ baseline18: spec
 	<version: '1.8-baseline'>
 	
 	spec for: #common do: [
-		spec
-			project: 'SmaCC' with: [
+		spec baseline: 'SmaCC' with: [
 				spec
-					className: 'ConfigurationOfSmaCC';
-					file: 'ConfigurationOfSmaCC';
-					repository: 'http://www.squeaksource.com/MetacelloRepository' ].
+					repository: 'github://ThierryGoubier/SmaCC';
+					loads: 'Runtime' ].
+				
 		spec
 			package: 'Citezen-Model';
 			package: 'Citezen-Parsers' with: [ spec requires: #('Citezen-Model' 'SmaCC')];
