@@ -5,8 +5,9 @@ baseline18: spec
 	spec for: #common do: [
 		spec baseline: 'SmaCC' with: [
 				spec
-					repository: 'github://ThierryGoubier/SmaCC';
-					loads: 'Runtime' ].
+					"repository: 'github://ThierryGoubier/SmaCC'"
+					repository: 'github://Ducasse/OldSmaccRuntime' 
+					].
 				
 		spec
 			package: 'Citezen-Model';
