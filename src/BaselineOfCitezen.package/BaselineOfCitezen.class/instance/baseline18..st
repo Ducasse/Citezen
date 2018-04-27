@@ -1,6 +1,6 @@
 baselines
 baseline18: spec
-	<version: '1.8-baseline'>
+	<baseline>
 	
 	spec for: #common do: [
 		spec baseline: 'SmaCC' with: [
