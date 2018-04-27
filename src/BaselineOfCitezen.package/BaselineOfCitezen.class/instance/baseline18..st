@@ -3,7 +3,7 @@ baseline18: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec baseline: 'SmaCC' with: [
+		spec baseline: 'OldSmaccRuntime' with: [
 				spec
 					"repository: 'github://ThierryGoubier/SmaCC'"
 					repository: 'github://Ducasse/OldSmaccRuntime' 
@@ -11,7 +11,7 @@ baseline18: spec
 				
 		spec
 			package: 'Citezen-Model';
-			package: 'Citezen-Parsers' with: [ spec requires: #('Citezen-Model' 'SmaCC')];
+			package: 'Citezen-Parsers' with: [ spec requires: #('Citezen-Model' 'OldSmaccRuntime')];
 			package: 'Citezen-Rendering' with: [ spec requires: 'Citezen-Model' ];
 			package: 'Citezen-Tools' with: [ spec requires: 'Citezen-Model' ];
 			package: 'Citezen-Query' with: [ spec requires: 'Citezen-Model'];
