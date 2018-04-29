@@ -6,7 +6,7 @@ baseline18: spec
 		spec baseline: 'OldSmaccRuntime' with: [
 				spec
 					"repository: 'github://ThierryGoubier/SmaCC'"
-					repository: 'github://Ducasse/OldSmaccRuntime' 
+					repository: 'github://Ducasse/OldSmaccRuntime/src' 
 					].
 				
 		spec
