@@ -1,10 +1,12 @@
 initialize
 initialize
 	super initialize.
-	doc := CZDoc new.
+	doc := self rootDocumentClass new.
 	self authorMatchingString: '*'.
-	localization := CZLocalisation new.
-	self fieldOrder: #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi).
+	localization := self localizationClass new.
+	self
+		fieldOrder:
+			#(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi).
 	self doNotAllowEmptySections.
 	self setFilteringOn.
 	self keysOfBlackListedEntries: self defaultKeysOfBlackListedEntries

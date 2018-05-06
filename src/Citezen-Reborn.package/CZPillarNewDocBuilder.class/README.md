@@ -15,5 +15,5 @@ builder := self new
 		authorMatchingString: '*Ducasse*';
 		french; 
 		setFilteringOn.
-	builder generate.	
+builder generate.	
 		

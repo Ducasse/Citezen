@@ -13,6 +13,9 @@ defaultHeader
 \author{}
 \begin{document}
 \maketitle
-
+\newcounter{publi}
+\newcommand{\pub}[0]
+	{\stepcounter{publi}
+	\item[\bf{[\arabic{publi}]}]}
 
 	' withUnixLineEndings

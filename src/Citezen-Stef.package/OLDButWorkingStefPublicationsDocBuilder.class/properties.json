@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "StephaneDucasse 8/23/2015 16:31",
+	"commentStamp" : "StephaneDucasse 5/6/2018 22:03",
 	"super" : "CZSingleAuthorDocBuilder",
 	"category" : "Citezen-Stef",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "StefPublicationsDocBuilder",
+	"name" : "OLDButWorkingStefPublicationsDocBuilder",
 	"type" : "normal"
 }

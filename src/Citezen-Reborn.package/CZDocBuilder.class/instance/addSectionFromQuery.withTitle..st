@@ -1,5 +1,5 @@
 building
-addBibSection: aQuery withTitle: aString
+addSectionFromQuery: aQuery withTitle: aString
 	"Adding a section just add a section and a list of entries following it.
 	By default, empty sections are not created and entries are sorted to get more recent on the top. Pay attention that the items of a section are a new group of items. "
 
@@ -8,11 +8,4 @@ addBibSection: aQuery withTitle: aString
 	noEmptySection & entries size isZero
 		ifTrue: [ ^ self ].
 	entries sortByDateReverse.
-	self
-		addSection:
-			(CZSection new
-				title: (CZString new setValue: aString);
-				items: (CZSet new
-							addAll: entries;
-							yourself)
-				yourself).
+	self addEntitledSection: aString withBibEntries: entries

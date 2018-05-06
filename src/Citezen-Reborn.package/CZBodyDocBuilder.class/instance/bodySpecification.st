@@ -1,3 +1,3 @@
 settings
-sectionSpecification
+bodySpecification
 	^ bodySpecification 

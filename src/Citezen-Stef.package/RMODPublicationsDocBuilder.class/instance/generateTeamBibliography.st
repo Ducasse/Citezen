@@ -5,7 +5,7 @@ generateTeamBibliography
 	| docBuilder builder |
 	docBuilder := CZBblDocBuilder new
 		bibset: self class query20122016 workingBibSet;
-		sectionSpecification: #(PhDAndHabilitation internationalJournal nationalJournal topConference internationalConference  nationalConference  invitedPaper bookChapter book editor internationalWorkshop  toolDemo vulgarisation ) ;
+		bodySpecification: #(PhDAndHabilitation internationalJournal nationalJournal topConference internationalConference  nationalConference  invitedPaper bookChapter book editor internationalWorkshop  toolDemo vulgarisation ) ;
 		noHeader; 
 		"we cancel the main header since we will have one for each for the raweb"
 		setFilteringOn.

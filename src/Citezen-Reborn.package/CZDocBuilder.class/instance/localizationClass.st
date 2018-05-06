@@ -1,0 +1,3 @@
+hooks
+localizationClass
+	^ CZLocalisation

@@ -1,8 +1,8 @@
-I'm responsible for building document. I work on a bib set and once all the filtering is done. Visitors such as CZBibTexGenerator can render them. 
-
-
-So far having just a title and sections is just enough. In the future we should add paragraph and link 
-to easily add a bibtex file synchronized with the entries.
+I'm responsible for building document. I work on a bib set and once all the filtering is done. 
+I have a title and sections and for example, HTML subclasses also point to a bib file. 
+My sections are built out of queries over the bibset that I use. 
+I define many queries over my working bibset. 
+I use visitors such as CZBibTexGenerator (such as subclasses of CZFileFormatGenerator) to render my elements. 
 
 
 Implementation notes.

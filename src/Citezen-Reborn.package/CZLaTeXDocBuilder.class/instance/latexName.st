@@ -1,4 +1,4 @@
 latex
 latexName
 
-	^ 'Foo'
+	^ self authorMatchingString

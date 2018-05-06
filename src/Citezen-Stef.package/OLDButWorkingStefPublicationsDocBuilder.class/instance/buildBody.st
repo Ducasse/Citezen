@@ -9,6 +9,7 @@ buildBody
 		addSectionFromQuery: (self invitedQuery) withTitle: localization invitedPapers;
 		addSectionFromQuery: (self bookChapterQuery) withTitle: localization bookChapters;
 		addSectionFromQuery: (self bookQuery) withTitle: localization books;
+		addSectionFromQuery: (self bookletQuery) withTitle: localization booklets;
 		addSectionFromQuery: (self editorQuery) withTitle: localization editor;
 		addSectionFromQuery: (self internationalWorkshopQuery) withTitle: localization internationalReviewedWorkshops;
 		addSectionFromQuery: (self PhDAndHabilitationQuery) withTitle: localization phdAndHdr;

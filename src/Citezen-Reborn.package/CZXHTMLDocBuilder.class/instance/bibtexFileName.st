@@ -1,4 +1,4 @@
 xhtml
 bibtexFileName
 
-	^ Date today yyyymmdd, 'bibtex.bib'
+	^ Date today yyyymmdd, '-Regenerated.bib'

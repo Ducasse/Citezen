@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "StephaneDucasse 9/3/2015 20:18",
+	"commentStamp" : "StephaneDucasse 5/6/2018 22:33",
 	"super" : "Object",
 	"category" : "Citezen-Stef",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "StefDocBuilder",
+	"instvars" : [
+		"generators",
+		"bodySpecification"
+	],
+	"name" : "CZStef",
 	"type" : "normal"
 }

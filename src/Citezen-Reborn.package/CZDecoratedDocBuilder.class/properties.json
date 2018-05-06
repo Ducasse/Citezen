@@ -1,13 +1,12 @@
 {
 	"commentStamp" : "StephaneDucasse 8/10/2016 10:45",
-	"super" : "CZDocBuilder",
+	"super" : "CZBodyDocBuilder",
 	"category" : "Citezen-Reborn-DocumentBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"noHeader",
-		"bodySpecification",
 		"footerString",
 		"headerString"
 	],
