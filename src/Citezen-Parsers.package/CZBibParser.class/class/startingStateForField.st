@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForField
-	^4
+	^ 3

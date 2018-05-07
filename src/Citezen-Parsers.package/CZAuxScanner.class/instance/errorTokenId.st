@@ -1,3 +1,3 @@
-generated-tokens
+generated
 errorTokenId
-	^24
+	^ 24

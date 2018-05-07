@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForBodyContents
-	^3
+	^ 2

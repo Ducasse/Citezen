@@ -1,3 +1,0 @@
-generated-reduction actions
-reduceActionForOptionalXXGroupXXXXXXXXXRepeatXMultipleXXXnameX1: nodes
-	^ nil

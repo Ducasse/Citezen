@@ -1,3 +1,3 @@
-generated-tokens
+generated
 bibstyleId
-	^8
+	^ 8
