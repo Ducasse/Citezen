@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForAuxFile
-	^1
+	^ 1

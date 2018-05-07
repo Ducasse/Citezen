@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForBibfile
-	^1
+	^ 1

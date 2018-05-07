@@ -1,21 +1,16 @@
-generated-scanner
+generated
 scanForToken
-	self recordMatch: #whitespace.
+	self recordMatch: #(2).
 	self step.
-	(currentCharacter <= Character backspace
-		or: [ 
-			(currentCharacter between: (Character value: 14) and: Character arrowDown)
-				or: [ (currentCharacter between: $! and: $+) or: [ (currentCharacter between: $- and: $z) or: [ currentCharacter >= $| ] ] ] ])
-		ifTrue: [ ^ self scan1 ].
-	((currentCharacter between: Character tab and: Character cr) or: [ currentCharacter = Character space ])
-		ifTrue: [ 
-			[ 
-			self recordMatch: #whitespace.
-			self step.
-			(currentCharacter between: Character tab and: Character cr) or: [ currentCharacter = Character space ] ] whileTrue.
-			^ self reportLastMatch ].
-	currentCharacter = $,
+	currentCharacter == $,
 		ifTrue: [ ^ self recordAndReportMatch: #(1) ].
-	currentCharacter = ${
+	currentCharacter == ${
 		ifTrue: [ ^ self scan2 ].
-	^ self reportLastMatch
+	(currentCharacter isSeparator
+		or: [ currentCharacter == Character pageUp ])
+		ifTrue: [ [ self recordMatch: #(2).
+			self step.
+			currentCharacter isSeparator
+				or: [ currentCharacter == Character pageUp ] ] whileTrue.
+			^ self reportLastMatch ].
+	^ self scan1

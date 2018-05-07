@@ -1,3 +1,3 @@
 generated-accessing
 scannerClass
-	^ CZAuxScanner
+	^CZAuxScanner

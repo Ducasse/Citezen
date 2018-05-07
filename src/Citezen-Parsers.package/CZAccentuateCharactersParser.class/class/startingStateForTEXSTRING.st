@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForTEXSTRING
-	^1
+	^ 1
