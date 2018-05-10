@@ -1,3 +1,0 @@
-generated-reduction actions
-reduceActionForRepeatXXGroupXXXXXXXXXSimpleValue1: nodes
-	^ OrderedCollection new

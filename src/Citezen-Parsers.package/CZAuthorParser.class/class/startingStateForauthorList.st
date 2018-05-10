@@ -1,3 +1,3 @@
-generated-starting states
+generated
 startingStateForauthorList
-	^1
+	^ 1

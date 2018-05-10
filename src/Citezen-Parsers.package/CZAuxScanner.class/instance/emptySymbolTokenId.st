@@ -1,3 +1,3 @@
-generated-tokens
+generated
 emptySymbolTokenId
-	^23
+	^ 23

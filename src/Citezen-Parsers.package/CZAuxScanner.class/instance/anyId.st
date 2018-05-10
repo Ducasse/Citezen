@@ -1,3 +1,3 @@
-generated-tokens
+generated
 anyId
-	^13
+	^ 13

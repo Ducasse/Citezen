@@ -1,3 +1,3 @@
-generated-tokens
+generated
 bracedStringId
-	^10
+	^ 10

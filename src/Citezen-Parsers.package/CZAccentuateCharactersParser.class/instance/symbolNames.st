@@ -1,0 +1,3 @@
+generated
+symbolNames
+	^ #('<plainChar>' '<openingBrace>' '<closingBrace>' '<noBackSlash>' '<doubleSlash>' '<otherSlashedChar>' '<dollar>' '<endash>' '<emdash>' '<acute>' '<grave>' '<circumflex>' '<umlaut>' '<tilde>' '<bar>' '<dot>' '<invCircumflex>' '<arc>' '<doubleQuote>' '<ccedilla>' '<scedilla>' '<tcedilla>' '<inversedQuestionMark>' '<oe>' '<ae>' '<ss>' '<smallRingedA>' '<capitalRingedA>' '<smallSlashedO>' '<capitalSlashedO>' '<barredL>' '<capitalBarredL>' '<iForm>' '<jForm>' '<nonBreakingSpace>' '<optionalHyphen>' '<ampersand>' '<percent>' '<hash>' '<circlea>' '<nu>' '<pi>' '<tau>' '<omega>' '<neq>' '<wedge>' '<underscoredChar>' 'TEXPIECE*' 'TEXSTRING' 'TEXPIECE' 'accentableCHAR' 'other' 'special' 'B e g i n' 'specialCHAR' 'accentable' 'E O F' 'error')

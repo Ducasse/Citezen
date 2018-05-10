@@ -1,3 +1,3 @@
-generated-tokens
+generated
 parenthesizedStringId
-	^13
+	^ 13
