@@ -6,9 +6,9 @@ testBlackListedEntriesAlsoFiltersInSubmission
 	| builder |
 	builder := CZDocBuilder new bibset: bibset.
 	"filtering not invoked"				
-	self assert: builder workingBibSet size = 6.		
+	self assert: builder workingBibSet size equals: 6.		
 	
 	"now testing that we removed the keys we do not want"	
 	builder keysOfBlackListedEntries: #(Abde10a Chev11a).
 	builder filter.
-	self assert: builder workingBibSet size = 3.	
+	self assert: builder workingBibSet size equals: 3.	
