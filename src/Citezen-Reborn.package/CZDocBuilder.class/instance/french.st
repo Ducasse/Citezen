@@ -1,4 +1,4 @@
 configuration public api
 french
 
-	localization french.
+	localization french
