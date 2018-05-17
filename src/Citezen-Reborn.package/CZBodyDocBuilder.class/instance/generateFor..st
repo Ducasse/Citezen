@@ -1,3 +1,5 @@
 file helper
 generateFor: aDoc
-	self generateFor: aDoc on: (File named: (Date today yyyymmdd , self extension)) writeStream.
+
+	((Date today yyyymmdd, self extension) asFileReference ensureDelete; ensureCreateFile ) writeStreamDo: [ :st | 
+				self generateFor: aDoc on: st ]
