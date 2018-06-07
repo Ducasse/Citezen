@@ -1,8 +1,8 @@
 initialize
 initialize
 	super initialize.
-	fileSystem := FileSystem disk.
-	
+	workingDirectory := FileSystem disk workingDirectory.
+
 	doc := self rootDocumentClass new.
 	self authorMatchingString: '*'.
 	localization := self localizationClass new.

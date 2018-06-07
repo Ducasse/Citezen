@@ -15,7 +15,7 @@
 		"shouldFilterNonPublic",
 		"keysOfBlackListedEntries",
 		"fieldOrder",
-		"fileSystem"
+		"workingDirectory"
 	],
 	"name" : "CZDocBuilder",
 	"type" : "normal"
