@@ -14,7 +14,8 @@
 		"noEmptySection",
 		"shouldFilterNonPublic",
 		"keysOfBlackListedEntries",
-		"fieldOrder"
+		"fieldOrder",
+		"fileSystem"
 	],
 	"name" : "CZDocBuilder",
 	"type" : "normal"
