@@ -25,7 +25,7 @@ Abde10a
 	X-Proceedings = {yes},
 	Year = 2010,
 	Bdsk-Url-1 = {http://rmod.lille.inria.fr/archives/papers/Abde10a-IST-Official-packageFingerprints.pdf},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1016/j.infsof.2010.07.005}}
+	Bdsk-Url-2 = {https://doi.org/10.1016/j.infsof.2010.07.005}}
 
 '
 )  
