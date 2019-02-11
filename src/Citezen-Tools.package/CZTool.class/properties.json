@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"bibset"
+	],
 	"name" : "CZTool",
 	"type" : "normal"
 }

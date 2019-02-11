@@ -2,5 +2,5 @@ initialize-release
 initialize
 	
 	super initialize.
-	bibSet := CZSet withStandardDefinitions.
+	bibset := CZSet withStandardDefinitions.
 	inputFiles := #()

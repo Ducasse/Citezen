@@ -1,3 +1,3 @@
 instance creation
 bibFromFileNamed: aString
-	^ (CZBibParser parse: ((FileStream readOnlyFileNamed: aString) contents)).
+	^ self new bibFromFileNamed: aString; yourself

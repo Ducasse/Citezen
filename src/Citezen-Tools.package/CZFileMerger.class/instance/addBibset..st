@@ -1,4 +1,4 @@
 action
 addBibset: aBibSet
 
-	bibSet addAll:  aBibSet
+	bibset addAll:  aBibSet

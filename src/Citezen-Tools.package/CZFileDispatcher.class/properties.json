@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bibset",
 		"dispatchBlock",
 		"outputFilesDescription",
 		"blackListedFields"

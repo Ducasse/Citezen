@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "StephaneDucasse 2/11/2019 22:19",
+	"commentStamp" : "StephaneDucasse 2/11/2019 22:25",
 	"super" : "CZTool",
 	"category" : "Citezen-Tools",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CZFileLoader",
+	"name" : "CZFileSaver",
 	"type" : "normal"
 }

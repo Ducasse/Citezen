@@ -1,4 +1,4 @@
 accessing
 bibset: aBibSet
 
-	bibSet :=  aBibSet
+	bibset := aBibSet

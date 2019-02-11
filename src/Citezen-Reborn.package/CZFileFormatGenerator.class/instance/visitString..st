@@ -1,5 +1,4 @@
 visit
 visitString: aCZString
 
-	self outputStream nextPutAll: 
-		(self treatString: aCZString notExpanded)
+	self outputStream nextPutAll: (self treatString: aCZString notExpanded)

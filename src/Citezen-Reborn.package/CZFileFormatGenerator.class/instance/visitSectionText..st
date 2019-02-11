@@ -1,5 +1,4 @@
 visit
 visitSectionText: aCZText
 
-	aCZText acceptVisitor: self. 
-	
+	aCZText acceptVisitor: self
