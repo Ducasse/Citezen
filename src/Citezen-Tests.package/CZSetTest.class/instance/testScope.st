@@ -5,5 +5,6 @@ testScope
 	bibset scope: CZSet months.
 	self should: [bibset macroAt: 'feb'] raise: Error.
 	self shouldnt: [bibset lookupMacroAt: 'feb'] raise: Error.
-	self assert: (bibset lookupMacroAt: 'feb') value 
-				= (CZSet months macroAt: 'feb') value
+	self 
+		assert: (bibset lookupMacroAt: 'feb') value 
+		equals: (CZSet months macroAt: 'feb') value

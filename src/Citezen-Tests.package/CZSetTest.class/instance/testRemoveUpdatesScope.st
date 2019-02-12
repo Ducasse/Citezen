@@ -7,4 +7,4 @@ testRemoveUpdatesScope
 	entry moveToBibSet: otherSet.
 	self deny: (bibset entries includes: entry).
 	self assert: (otherSet entries includes: entry).
-	self assert: entry scope = otherSet
+	self assert: entry scope equals: otherSet

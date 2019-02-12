@@ -1,3 +1,3 @@
 testing
 testReferencedMacros
-	self assert: bibset referencedMacros size = 2
+	self assert: bibset referencedMacros size equals: 2

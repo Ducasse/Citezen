@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "cdlm 11/9/2007 17:37",
 	"super" : "TestResource",
-	"category" : "Citezen-Tests",
+	"category" : "Citezen-Tests-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
