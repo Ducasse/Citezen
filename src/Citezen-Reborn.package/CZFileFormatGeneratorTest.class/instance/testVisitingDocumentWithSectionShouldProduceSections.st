@@ -5,7 +5,7 @@ testVisitingDocumentWithSectionShouldProduceSections
 	| visitor |
 	visitor := self generatorClass new.
 	visitor visit: CZDocBuilderTest aDoc.
-	self assert: (self isString: visitor outputStream contents equalsTo:
+	self assert: (self isString: visitor contents equalsTo:
  '  
 Refereed Articles in International Journals
 

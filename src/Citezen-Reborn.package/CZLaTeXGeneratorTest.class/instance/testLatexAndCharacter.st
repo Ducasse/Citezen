@@ -4,7 +4,7 @@ testLatexAndCharacter
 
 	| result |
 	result := (CZLaTeXGenerator new
-		visit: uqui2) outputStream contents.
+		visit: uqui2) contents.
 	self
 		assert:
 			(self isString: result equalsTo:
