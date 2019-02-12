@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "BibTextRenderer",
-	"category" : "Citezen-Rendering",
+	"category" : "Citezen-Rendering-UnusedVisitor",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

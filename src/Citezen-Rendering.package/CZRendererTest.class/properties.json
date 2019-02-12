@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "StephaneDucasse 2/12/2019 12:58",
 	"super" : "TestCase",
-	"category" : "Citezen-Tests",
+	"category" : "Citezen-Rendering-UnusedVisitor",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

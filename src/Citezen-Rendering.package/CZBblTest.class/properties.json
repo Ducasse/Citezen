@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "CZRendererTest",
-	"category" : "Citezen-Tests",
+	"category" : "Citezen-Rendering-UnusedVisitor",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CZBibTest",
+	"name" : "CZBblTest",
 	"type" : "normal"
 }

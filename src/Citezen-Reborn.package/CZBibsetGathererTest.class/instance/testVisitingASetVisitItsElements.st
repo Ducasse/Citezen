@@ -8,5 +8,5 @@ testVisitingASetVisitItsElements
 	visitor visit: bibset.
 	visitor visit: entry.
 	visitor visit: entry2.
-	self assert: visitor numberOfEntries = 3.			
+	self assert: visitor numberOfEntries equals: 3.			
 	

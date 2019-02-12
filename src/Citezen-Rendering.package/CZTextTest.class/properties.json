@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CZRendererTest",
-	"category" : "Citezen-Tests",
+	"category" : "Citezen-Rendering-UnusedVisitor",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

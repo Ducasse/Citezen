@@ -1,4 +1,4 @@
 testing
 hasEntries
 
-	^ self bibset size > 0
+	^ self bibset isEmpty not

@@ -7,5 +7,5 @@ testTwoEntriesOneAfterTheOneCollectThem
 	self assert: visitor bibset size isZero.	
 	visitor visit: entry.
 	visitor visit: entry2.
-	self assert: visitor bibset size = 2.			
+	self assert: visitor bibset size equals: 2.			
 	

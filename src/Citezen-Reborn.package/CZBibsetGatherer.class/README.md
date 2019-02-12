@@ -1,7 +1,7 @@
 I'm a visitor collecting bib entries that are contained in a structure.
 It is handy to build for example the bibtex file associated with a given document.
 
- CZBibsetGatherer bibsetFrom: aDoc
+CZBibsetGatherer bibsetFrom: aDoc
 
 Todo:
 --------

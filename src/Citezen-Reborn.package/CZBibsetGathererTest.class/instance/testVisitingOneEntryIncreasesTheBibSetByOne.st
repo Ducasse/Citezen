@@ -6,5 +6,5 @@ testVisitingOneEntryIncreasesTheBibSetByOne
 	visitor := CZBibsetGatherer new.
 	self assert: visitor bibset size isZero.	
 	visitor visit: entry.
-	self assert: visitor bibset size = 1.			
+	self assert: visitor bibset size equals: 1.			
 	

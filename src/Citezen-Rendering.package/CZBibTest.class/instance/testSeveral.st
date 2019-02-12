@@ -1,7 +1,7 @@
-testing
+tests
 testSeveral
 	super testSeveral.
-	self assert: result = '@article{Duca10a,
+	self assert: result equals: '@article{Duca10a,
 author = {St\''ephane Ducasse and Damien Pollet},
 title = {Fingerprints},
 journal = {Journal of Information System},

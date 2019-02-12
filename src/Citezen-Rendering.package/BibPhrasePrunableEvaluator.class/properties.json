@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "cdlm 6/27/2007 14:49",
 	"super" : "BibPhraseVisitor",
-	"category" : "Citezen-Rendering",
+	"category" : "Citezen-Rendering-UnusedVisitor",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

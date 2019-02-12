@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "cdlm 7/22/2007 16:52",
 	"super" : "Object",
-	"category" : "Citezen-Rendering",
+	"category" : "Citezen-Rendering-Unused",
 	"classinstvars" : [
 		"defaultInstance",
 		"monthMappings"
