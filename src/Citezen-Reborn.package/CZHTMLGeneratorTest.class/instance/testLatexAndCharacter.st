@@ -3,8 +3,7 @@ testLatexAndCharacter
 	"self debug: #testLatexAndCharacter"
 
 	| result |
-	result := (CZHTMLGenerator new
-		visit: uqui2) outputStream contents.
+	result := (CZHTMLGenerator new visit: uqui2) outputStream contents.
 	self
 		assert:
 			(self isString: result  equalsTo:  

@@ -1,10 +1,9 @@
-as yet unclassified
+tests
 testLatexAndCharacter
 	"self debug: #testLatexAndCharacter"
 
 	| result |
-	result := (self generatorClass new
-		visit: uqui2) outputStream contents.
+	result := (self generatorClass new visit: uqui2) outputStream contents.
 	self
 		assert:
 			(self isString: result  equalsTo: 

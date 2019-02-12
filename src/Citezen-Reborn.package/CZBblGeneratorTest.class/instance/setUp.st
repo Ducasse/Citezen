@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 	bibset := CZSet new.
 	entry := (CZEntry type: CZEntry article)
