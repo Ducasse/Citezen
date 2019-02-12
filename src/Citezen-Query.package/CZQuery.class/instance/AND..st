@@ -1,6 +1,6 @@
 public
 AND: aQuery
-	^ (CZAndQuery new)
+	^ CZAndQuery new
 		leftAnd: self;
 		rightAnd: aQuery;
 		yourself

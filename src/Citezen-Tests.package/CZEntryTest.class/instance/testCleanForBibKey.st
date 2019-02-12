@@ -5,16 +5,20 @@ testCleanForBibKey
 	self
 		assert:
 			(dirty author rawValueObject people first
-				cleanForBibKey: 'Abdeen') = 'abdeen'.
+				cleanForBibKey: 'Abdeen') 
+		equals: 'abdeen'.
 	self
 		assert:
 			(uqui author rawValueObject people second
-				cleanForBibKey: 'Uquillas') = 'uquillas'.
+				cleanForBibKey: 'Uquillas') 
+		equals: 'uquillas'.
 	self
 		assert:
 			(uqui author rawValueObject people second
-				cleanForBibKey: 'B\''era') = 'bera'.
+				cleanForBibKey: 'B\''era') 
+		equals: 'bera'.
 	self
 		assert:
 			(uqui author rawValueObject people second
-				cleanForBibKey: 'G\''{o}mez') = 'gomez'
+				cleanForBibKey: 'G\''{o}mez') 
+		equals: 'gomez'

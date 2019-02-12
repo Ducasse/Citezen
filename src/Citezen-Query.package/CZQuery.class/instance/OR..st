@@ -1,6 +1,6 @@
 public
 OR: aQuery
-	^ (CZOrQuery new)
+	^ CZOrQuery new
 		leftOr: self;
 		rightOr: aQuery;
 		yourself
