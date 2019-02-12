@@ -6,8 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bibSet",
-		"bibSet2",
 		"prioritaryBibSet",
 		"withoutDuplications",
 		"duplicates"
