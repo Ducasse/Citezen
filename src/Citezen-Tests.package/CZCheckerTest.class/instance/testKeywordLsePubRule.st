@@ -6,9 +6,9 @@ testKeywordLsePubRule
 	entry := self brokenTeamEntry.
 	checker checkEntry: entry.
 	
-	self assert:  ((entry at: #keyword) value = 'lse-pub').
+	self assert: (entry at: #keyword) value equals: 'lse-pub'.
 	
 	entry at: #keyword put: 'aKeyWord'.
 	checker checkEntry: entry.
 	
-	self assert:  ((entry at: #keyword) value = 'aKeyWord lse-pub').
+	self assert: (entry at: #keyword) value equals: 'aKeyWord lse-pub'.
