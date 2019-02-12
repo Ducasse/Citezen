@@ -1,5 +1,6 @@
 action
 load: inputFile
-
-	bibset addAll:  (CZBibParser parse: (inputFile asFileReference readStream) contents)
+	
+	inputFile asFileReference readStreamDo: [ :s | 
+		bibset addAll:  (CZBibParser parse: s contents) ]
 	
