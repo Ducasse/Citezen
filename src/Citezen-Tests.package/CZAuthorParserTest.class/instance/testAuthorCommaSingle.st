@@ -1,4 +1,4 @@
-testing
+tests
 testAuthorCommaSingle
 	| authorString authors |
 	authorString := 'Nierstrasz, Oscar'.

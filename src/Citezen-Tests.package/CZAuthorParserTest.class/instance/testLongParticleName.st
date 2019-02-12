@@ -1,4 +1,4 @@
-testing
+tests
 testLongParticleName
 	| authorString author |
 	authorString := 'Charles Louis Xavier Joseph de la Vallée Poussin'.

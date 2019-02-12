@@ -1,3 +1,3 @@
-as yet unclassified
+conditions
 explanation
 	^ 'Checks nothing, ensure CZChecker isWrittenByRModMember'

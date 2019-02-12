@@ -1,4 +1,4 @@
-testing
+tests
 testMultiParticleName
 	| authorString author |
 	authorString := 'Théodule du Cellier de Lagrange'.

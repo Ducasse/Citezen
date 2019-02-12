@@ -29,4 +29,4 @@ getBibtexBlock
 	fileContent := fileContent trimRight.
 	fileContent ifEmpty: [ eof := true ].
 
-	^ (block contents) trimBoth
+	^ block contents trimBoth

@@ -1,4 +1,4 @@
 interface
 addRule: aCZRule
-	(aCZRule isNil)
+	aCZRule isNil
 		ifFalse: [ rules add: aCZRule ]

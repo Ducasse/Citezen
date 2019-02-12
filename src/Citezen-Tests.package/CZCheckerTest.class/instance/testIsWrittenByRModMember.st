@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIsWrittenByRModMember
 	| entry |
 	entry := (CZBibParser parse: '@misc{key, author={Ducasse, Stephane}}') entries at: 1.

@@ -1,4 +1,4 @@
-as yet unclassified
+conditions
 postAction: aCZEntry
 	(aCZEntry at: #keyword) isUndefined 
 		ifTrue: [ aCZEntry at: #keyword put: 'lse-pub' ]

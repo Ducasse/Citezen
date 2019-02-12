@@ -1,4 +1,4 @@
-testing
+tests
 testTwoAuthors
 	| authorString authors |
 	authorString := 'Oscar Nierstrasz and St\''ephane Ducasse'.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testKeywordLsePubRule
 	| checker entry |
 	checker := CZChecker new addRule: CZRmodKeywordLsePubRule new.

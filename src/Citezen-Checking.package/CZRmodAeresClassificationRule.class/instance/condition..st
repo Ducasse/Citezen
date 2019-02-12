@@ -1,4 +1,4 @@
-as yet unclassified
+conditions
 condition: aCZEntry
 	^ (aCZEntry hasField: #aeres)
 		ifFalse: [ false ]

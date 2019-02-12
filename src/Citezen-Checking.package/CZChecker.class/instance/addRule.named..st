@@ -1,7 +1,7 @@
 interface
 addRule: aBlock named: aString
 	| name |
-	(aString isEmptyOrNil)
+	aString isEmptyOrNil
 		ifTrue: [ name := 'rule', rules size asString ]
 		ifFalse: [ name := aString ].
 	

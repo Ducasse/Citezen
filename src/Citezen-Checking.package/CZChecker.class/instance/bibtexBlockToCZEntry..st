@@ -2,7 +2,7 @@ as yet unclassified
 bibtexBlockToCZEntry: aString
 	| bibset |
 	
-	[ bibset := parser parse: aString.]
+	[ bibset := parserClass parse: aString.]
 		on: Error do: [
 			errorStream nextPutAll: 'Error : Syntax error in:'; cr; nextPutAll: aString; cr; cr ].
 	

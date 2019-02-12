@@ -1,4 +1,4 @@
-testing
+tests
 testAuthorSingle
 	| authorString authors |
 	authorString := 'Oscar Nierstrasz'.

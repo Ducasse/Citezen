@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	parser := CZBibParser.
+	parserClass := CZBibParser.
 	rules := OrderedCollection new.
 	typeFieldsMatching := Dictionary new.
 	warnings := true.

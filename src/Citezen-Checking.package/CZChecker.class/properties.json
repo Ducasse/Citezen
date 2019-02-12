@@ -9,7 +9,6 @@
 		"fileContent",
 		"rules",
 		"eof",
-		"parser",
 		"errorStream",
 		"entries",
 		"typeFieldsMatching",
@@ -21,7 +20,8 @@
 		"fieldKeys",
 		"entryKeys",
 		"index",
-		"warnings"
+		"warnings",
+		"parserClass"
 	],
 	"name" : "CZChecker",
 	"type" : "normal"

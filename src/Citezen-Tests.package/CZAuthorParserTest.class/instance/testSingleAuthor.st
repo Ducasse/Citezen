@@ -1,4 +1,4 @@
-testing
+tests
 testSingleAuthor
 	"self debug: #testSingleAuthor"
 	

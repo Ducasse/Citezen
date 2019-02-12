@@ -1,4 +1,4 @@
-as yet unclassified
+conditions
 condition: aCZEntry
 	^ (aCZEntry key size = 7)
 		ifFalse: [ false ]
