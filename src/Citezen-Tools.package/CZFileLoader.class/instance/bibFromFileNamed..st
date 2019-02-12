@@ -1,3 +1,6 @@
 loading
 bibFromFileNamed: aString
-	bibset := CZBibParser parse: (aString asFileReference readStream contents)
+
+	aString asFileReference 
+		readStreamDo: [ :s | 
+			bibset := CZBibParser parse: s contents ]
