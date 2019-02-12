@@ -4,4 +4,5 @@ saveTo: aString
 	
 	CZBibTexGenerator new 
 		filename: aString;
-		visitBibSet: self bibset
+		visitBibSet: self bibset;
+		close

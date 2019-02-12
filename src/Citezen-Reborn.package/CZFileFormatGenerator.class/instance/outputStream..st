@@ -1,4 +1,4 @@
-accessing
+private - visitor
 outputStream: aStream
 
 	outputStream := aStream

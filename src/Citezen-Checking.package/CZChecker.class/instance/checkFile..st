@@ -4,7 +4,7 @@ checkFile: aString
 	macrosUsage := Dictionary new.
 	entries := OrderedCollection new.
 
-	fileContent := (FileStream readOnlyFileNamed: aString) contents copyReplaceAll: String lf with: String cr.
+	fileContent := aString asFileReference readStreamDo: [ :s | s contents copyReplaceAll: String lf with: String cr].
 	eof := false.
 
 	errorStream := WriteStream on: String new.

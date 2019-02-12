@@ -7,7 +7,7 @@ withoutInternalKeyDuplicates: aBibSet
 	duplicates := CZSet new.
 	prioritaryBibSet do: [:each | 
 				(withoutDuplications includesKey:  each key)
-					ifFalse: [withoutDuplications addEntry: each]
-					ifTrue: [duplicates addEntry: each ]].
+					ifFalse: [ withoutDuplications addEntry: each ]
+					ifTrue: [ duplicates addEntry: each ]].
 	^ withoutDuplications
 	
