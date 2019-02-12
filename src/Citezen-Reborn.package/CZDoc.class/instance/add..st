@@ -1,4 +1,4 @@
-initialize-release
+initialization
 add: anElement
 
 	elements add: anElement.

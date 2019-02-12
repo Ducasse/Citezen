@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 acceptVisitor: aVisitor
 
 	aVisitor visitItem: self.

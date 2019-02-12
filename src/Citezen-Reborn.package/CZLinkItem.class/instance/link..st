@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 link: aName
 
 	link := aName
