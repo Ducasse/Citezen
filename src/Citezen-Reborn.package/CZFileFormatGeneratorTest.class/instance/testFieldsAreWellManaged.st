@@ -1,4 +1,7 @@
 setUp
 testFieldsAreWellManaged
 
-	self halt.
+	self halt. 
+	formatGenerator sortedFieldsOf: articleEntry
+
+	

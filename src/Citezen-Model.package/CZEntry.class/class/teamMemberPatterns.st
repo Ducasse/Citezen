@@ -3,7 +3,7 @@ teamMemberPatterns
 	^ teamMemberPatterns ifNil: [ teamMemberPatterns := 
 			#( '*Ducasse*S*' '*S*Ducasse*' '*Denker*' 
 				'*Auverlot*' '*Larcheveque*'
-				'*Anquetil*' 
+				'*Anquetil*' '*Costiou*' '*Aranega*'
 				'*Govin*'
 				'*Pollet*' 
 				'*Abdeen*' 

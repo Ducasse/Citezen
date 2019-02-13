@@ -1,4 +1,4 @@
-metadata
+class initialization
 initializeNeededFields
 	"self initializeNeededFields"
 	neededFieldsDictionary := Dictionary new.

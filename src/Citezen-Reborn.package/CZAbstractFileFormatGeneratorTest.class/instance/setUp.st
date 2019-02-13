@@ -2,7 +2,7 @@ setUp
 setUp 
 
 	formatGenerator := self generatorClass new.
-	articleEntry := CZBibParser
+	articleEntry := (CZBibParser
 		parse:
 			'	@article{Herm00a,
  author = {Herman, Ivan and Melan\c{c}on, Guy and Marshall, M. Scott},
@@ -16,4 +16,4 @@ setUp
  doi = {10.1109/2945.841119},
  publisher = {IEEE Educational Activities Department},
  address = {Piscataway, NJ, USA}
- }'.
+ }') entries first

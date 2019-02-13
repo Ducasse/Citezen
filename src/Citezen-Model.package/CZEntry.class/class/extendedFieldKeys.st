@@ -1,0 +1,4 @@
+customization points
+extendedFieldKeys
+
+	^ ExtendedFieldKeys
