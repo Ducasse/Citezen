@@ -1,11 +1,10 @@
 * on CZentry we could say that all the keyx not in the extended set should be removed. This would simplify the logic.
 
+* we should propose a clean option to clean seriously the AndreasSystemProfiler 
+
+* sorting entries should be independent of it. 
 
 * apparently editor field does not contain people.
-
-
-we should add the fact that if a document is given a pattern for entries then all the entries get displayed
-using potentially in all the scripts associated to the document.
 
 
 notExpanded either returns a string or integer
@@ -21,7 +20,9 @@ notExpanded either returns a string or integer
 * CZOutputer should be subclass of CZDocumentVisitor ?
 
 * should check that   - BibTeX -> '@comment{Here is my comment}' is a valid entry.  probably it is.
+
 * introduce setter for used fields (replace field at: #author but field author: 
+
 * introduce key: as instance creation for entry
 	instead of (CZentry type: #article) key:
 			or (CZentry type: CZEntry article) key:
