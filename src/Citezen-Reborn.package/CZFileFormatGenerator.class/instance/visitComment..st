@@ -1,4 +1,4 @@
 visit
 visitComment: aCZCommentElement
 	super visitComment: aCZCommentElement.
-	self line.
+	self line

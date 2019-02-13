@@ -1,4 +1,4 @@
 visit
 visit: anObject
 
-	anObject acceptVisitor: self.
+	anObject acceptVisitor: self

@@ -1,5 +1,6 @@
 setup
 setUp
+	super setUp.
 	entry := (CZEntry type: CZEntry article)
 		key: #Duca10a;
 		at: #author

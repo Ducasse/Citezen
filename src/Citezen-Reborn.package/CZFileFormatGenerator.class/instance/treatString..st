@@ -4,4 +4,4 @@ treatString: aString
 		- handling tex encodings ie. \' or \& or \'{o} to be turned into the correct glyph
 		- strange characters that are meta characters in different outputs."
 
-	^ (self treatSignsInString: (self treatTexEncoding: aString))
+	^ self treatSignsInString: (self treatTexEncoding: aString)

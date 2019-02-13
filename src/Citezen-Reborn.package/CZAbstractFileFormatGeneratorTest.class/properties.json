@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"articleEntry",
+		"formatGenerator"
+	],
 	"name" : "CZAbstractFileFormatGeneratorTest",
 	"type" : "normal"
 }

@@ -3,7 +3,7 @@ testArticle
 	"self debug: #testArticle"
 
 	| result |
-	result := (CZHTMLGenerator new visit: entry) contents.
+	result := (self generatorClass new visit: entry) contents.
 	self
 		assert:
 			(self isString: result  equalsTo:

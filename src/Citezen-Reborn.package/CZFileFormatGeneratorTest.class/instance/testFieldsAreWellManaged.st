@@ -1,0 +1,4 @@
+setUp
+testFieldsAreWellManaged
+
+	self halt.

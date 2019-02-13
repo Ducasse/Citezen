@@ -3,7 +3,7 @@ testLatexAndCharacter
 	"self debug: #testLatexAndCharacter"
 
 	| result |
-	result := (CZHTMLGenerator new visit: uqui2) contents.
+	result := (self generatorClass new visit: uqui2) contents.
 	self
 		assert:
 			(self isString: result  equalsTo:  
