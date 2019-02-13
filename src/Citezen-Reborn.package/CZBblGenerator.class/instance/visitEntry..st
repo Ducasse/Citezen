@@ -4,7 +4,7 @@ visitEntry: anEntry
 	(anEntry hasFieldWithKey: Author)
 		ifFalse: [ ^ self ].
 	"we do not support non authored entry since the bibitem key is based on author."		
-	fields := anEntry fieldSortedFollowingKeys: fieldOrder allButFirst.
+	fields := anEntry fieldsFilteredAndSortedAccordingTo: fieldOrder allButFirst.
 	"remove authors because it is for the \bibitem and treated in EntryHeader"
 	"default fields do not include "
 	self emitEntryHeader: anEntry.
@@ -16,7 +16,7 @@ visitEntry: anEntry
 	((anEntry hasFieldWithKey: DOI) or: [(anEntry hasFieldWithKey: HALID)])
 		ifTrue: [  
 			self newblock.
-			(anEntry fieldSortedFollowingKeys: self doiAndHalFields)
+			(anEntry fieldsFilteredAndSortedAccordingTo: self doiAndHalFields)
 					do: [ :each | each acceptVisitor: self ] 
 					separatedBy: [ self emitFieldSeparation ] ].
 	self emitEntryFooter: anEntry

@@ -1,6 +1,6 @@
-* on CZentry we could say that all the keyx not in the extended set should be removed. This would simplify the logic.
+* ??not sure?? on CZentry we could say that all the keys not in the extended set should be removed. This would simplify the logic.
 
-* we should propose a clean option to clean seriously the AndreasSystemProfiler 
+* we should propose a clean option to clean seriously the bib if needed 
 
 * sorting entries should be independent of it. 
 
