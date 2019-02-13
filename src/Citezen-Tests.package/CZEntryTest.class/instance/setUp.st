@@ -75,8 +75,7 @@ setUp
 		at: #'Hal-ID' put: 'hal-01344842}';
 		at: #Aeresstatus put: 'aeres08';
 		at: #Annote put: 'internationalconference stefPub';
-		at: #Booktitle
-			put: 'European Conference on Software Maintenance and Reengineering (CSMR)';
+		at: #Booktitle put: 'European Conference on Software Maintenance and Reengineering (CSMR)';
 		at: #Inria put: 'ADAM';
 		at: #Keywords put: 'moose-pub';
 		at: #Location put: 'Athens, Greece';
@@ -92,6 +91,8 @@ setUp
 		at: #'Bdsk-Url-1' put: 'http://scg.unibe.ch/archive/external/Abde08a.pdf';
 		at: #'Date-Added' put: '{2009-10-20 14:54:13 +0200}';
 		at: #'Date-Modified' put: '{2009-10-20 15:05:13 +0200}'.
+		
+		
 	uqui := (CZBibParser
 		parse:
 			'	
