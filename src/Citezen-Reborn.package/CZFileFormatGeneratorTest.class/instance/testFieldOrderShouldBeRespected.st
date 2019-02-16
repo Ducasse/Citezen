@@ -9,6 +9,5 @@ testFieldOrderShouldBeRespected
 	
 	self 
 		assert: visitor contents trimBoth 
-		equals: 
-'Ducasse, St\''ephane and Pollet, Damien, Fingerprints.
-' trimBoth
+	equals: 
+ 'Ducasse, St\''ephane and Pollet, Damien, Fingerprints, Journal of Information System, 2010.' trimBoth
