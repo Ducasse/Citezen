@@ -1,5 +1,7 @@
 * ??not sure?? on CZentry we could say that all the keys not in the extended set should be removed. This would simplify the logic.
 
+* we could have an entry cleaner object.
+
 * we should propose a clean option to clean seriously the bib if needed 
 
 * sorting entries should be independent of it. 
