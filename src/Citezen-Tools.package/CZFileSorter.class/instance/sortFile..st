@@ -2,7 +2,7 @@ actions
 sortFile: aString
 
 	| bs oldSize |
-	bs := CZBibParser bibFromFileNamed: FileLocator image / aString.
+	bs := CZBibParser bibFromFileNamed: FileLocator image parent / aString.
 	oldSize := bs size.
 	bs sortByKey.
 	bs size. 
