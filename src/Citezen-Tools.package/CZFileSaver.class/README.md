@@ -1,5 +1,5 @@
 | bs oldSize |
-bs := (CZFileLoader bibFromFileNamed: 'rmod.bib') bibset.
+bs := (CZBibParser bibFromFileNamed: 'rmod.bib') bibset.
 oldSize := bs size.
 bs sortByKey.
 bs size. 
