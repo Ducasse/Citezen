@@ -3,7 +3,9 @@ testMonth
 	"self debug: #testMonth"
 
 	| result entry |
-	entry := CZBibParser parse: '@article{Abde14a,
+	entry := CZBibParser
+		parse:
+			'@article{Abde14a,
 	Annote = {internationaljournal},
 	Author = {Hani Abdeen and St\''ephane Ducasse and Damien Pollet and Ilham Alloui and Jean-R\''emy Falleri},
 	Hal-Id = {hal-00957695},
@@ -15,7 +17,10 @@ testMonth
 	Url = {http://rmod.inria.fr/archives/papers/Abde14a-Official-PackageBlueprint-SCP.pdf},
 	Year = {2014}}'.
 	result := (self generatorClass new visit: entry) contents.
- 	self assert: result trimBoth equals: '@article{Abde14a,
+	self
+		assert: result trimBoth withSqueakLineEndings
+		equals:
+			'@article{Abde14a,
   author = {Hani Abdeen and St\''ephane Ducasse and Damien Pollet and Ilham Alloui and Jean-R\''emy Falleri},
   title = {The Package Blueprint: Visually analyzing and quantifying packages dependencies},
   journal = {Science of Computer Programming},
@@ -25,5 +30,4 @@ testMonth
   annote = {internationaljournal},
   hal-id = {hal-00957695},
   keywords = {lse-pub StefPub kzVisualization},
-  month = feb}'
-
+  month = feb}' withSqueakLineEndings
