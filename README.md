@@ -1,5 +1,5 @@
 # Citezen
-Citezen is a bib parser and tool suite
+Citezen is a bib parser and tool suite. 
 
 
 [![Build Status](https://travis-ci.com/Ducasse/Citezen.svg?branch=master)](https://travis-ci.com/Ducasse/Citezen)
