@@ -9,3 +9,21 @@ Citezen is a bib parser and tool suite
 [![Pharo version](https://img.shields.io/badge/Pharo-7.0-%23aac9ff.svg)](https://pharo.org/download)
 [![Pharo version](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
 <!-- [![Build status](https://ci.appveyor.com/api/projects/status/1wdnjvmlxfbml8qo?svg=true)](https://ci.appveyor.com/project/olekscode/dataframe)  -->
+
+
+## Loading
+
+```
+Metacello new
+   baseline: 'Citezen';
+   repository: 'github://Ducasse/Citezen';
+   load.
+```
+
+## If you want to depend on it
+
+```
+spec 
+   baseline: 'Citezen' 
+   with: [ spec repository: 'github://Ducasse/Citezen' ].
+```
