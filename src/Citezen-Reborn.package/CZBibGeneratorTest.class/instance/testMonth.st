@@ -15,7 +15,8 @@ testMonth
 	Url = {http://rmod.inria.fr/archives/papers/Abde14a-Official-PackageBlueprint-SCP.pdf},
 	Year = {2014}}'.
 	result := (self generatorClass new visit: entry) contents.
- 	self assert: result trimBoth equals: '@article{Abde14a,
+ 	self assert: result trimBoth equals: 
+ '@article{Abde14a,
   author = {Hani Abdeen and St\''ephane Ducasse and Damien Pollet and Ilham Alloui and Jean-R\''emy Falleri},
   title = {The Package Blueprint: Visually analyzing and quantifying packages dependencies},
   journal = {Science of Computer Programming},
@@ -26,4 +27,3 @@ testMonth
   hal-id = {hal-00957695},
   keywords = {lse-pub StefPub kzVisualization},
   month = feb}'
-
