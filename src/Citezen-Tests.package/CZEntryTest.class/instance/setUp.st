@@ -1,5 +1,6 @@
 setup
 setUp
+	self longEntry.
 	entry := (CZBibParser parse: CZTestResource bibTest) entries at: 1.
 	duplicateEntry := (CZBibParser parse: CZTestResource bibTest) entries at: 1.
 	articleEntry := CZBibParser

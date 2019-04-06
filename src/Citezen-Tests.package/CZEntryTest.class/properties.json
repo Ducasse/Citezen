@@ -11,10 +11,10 @@
 		"articleEntry",
 		"inproceedingsEntry",
 		"masterEntry",
-		"team",
 		"dirty",
 		"uqui",
-		"uqui2"
+		"uqui2",
+		"longEntry"
 	],
 	"name" : "CZEntryTest",
 	"type" : "normal"

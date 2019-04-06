@@ -13,3 +13,4 @@ visitField: aField
 	aField isDoi
 		ifTrue: [outputStream nextPutAll: '">DOI</a>'].
 	outputStream nextPutAll: '</span>'.
+

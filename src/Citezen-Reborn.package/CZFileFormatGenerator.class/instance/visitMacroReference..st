@@ -1,3 +1,5 @@
 visit
 visitMacroReference: aCZMacroReference
-	self outputStream nextPutAll: aCZMacroReference notExpanded asString
+
+	self outputStream 
+		nextPutAll: aCZMacroReference notExpanded asString
