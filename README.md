@@ -14,7 +14,7 @@ Citezen is a bib parser and tool suite.
 
 ```
 $ git clone git@github.com:Ducasse/Citezen.git
-$ cd citezen
+$ cd Citezen
 $ ./scripts/build.sh
 ```
 ## Loading for dev

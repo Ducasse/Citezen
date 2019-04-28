@@ -53,3 +53,4 @@ ${PHARO} eval --save "Smalltalk logFileName: '/tmp/citezen.log'"
 
 #cp "${__dir}/wrappers/"* "${__builddir}"
 #cp -r "${__dir}/../archetypes" "${__builddir}/archetypes"
+s
