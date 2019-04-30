@@ -2,7 +2,7 @@ actions
 sortFile: aString
 
 	| bs oldSize |
-	bs := CZBibParser bibFromFileNamed: FileLocator image parent / aString.
+	bs := CZBibParser bibFromFileNamed: FileLocator workingDirectory / aString.
 	oldSize := bs size.
 	bs sortByKey.
 	bs size. 
@@ -16,7 +16,6 @@ sortFile: aString
 				nextPutAll: ' entries. So we saved the file to a new name:'.
 			CZFileSaver new bibset: bs ; saveTo: aString, 'Sorted.bib'
 			].
-	self halt.
 	Stdio stdout 
 		nextPutAll:	'Sorted file: ';
 		nextPutAll: aString;
