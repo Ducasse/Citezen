@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "StephaneDucasse 4/28/2019 21:55",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZRMODCommiter",
+	"type" : "normal"
+}
