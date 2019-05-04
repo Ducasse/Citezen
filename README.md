@@ -10,6 +10,9 @@ Citezen is a bib parser and tool suite.
 [![Pharo version](https://img.shields.io/badge/Pharo-8.0-%23aac9ff.svg)](https://pharo.org/download)
 <!-- [![Build status](https://ci.appveyor.com/api/projects/status/1wdnjvmlxfbml8qo?svg=true)](https://ci.appveyor.com/project/olekscode/dataframe)  -->
 
+
+Tests are all green on my machine. No idea why some are failing on travis
+
 ## Installing for use
 
 ```
