@@ -1,8 +1,13 @@
 actions
 sortFile: aString
 
-	| bs oldSize |
-	bs := CZBibParser bibFromFileNamed: FileLocator workingDirectory / aString.
+	| bs oldSize file |
+	file := [ FileLocator workingDirectory / aString ]
+				on: FileDoesNotExistException
+				do: [ :exception | 
+							Stdio stdout nextPutAll: 'The file ', aString, ' is not found.'.
+							^ self ].
+	bs := CZBibParser bibFromFileNamed: file.
 	oldSize := bs size.
 	bs sortByKey.
 	bs size. 
