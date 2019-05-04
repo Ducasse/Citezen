@@ -1,20 +1,25 @@
 actions
 sortFile: aString
 
-	| bs oldSize file |
-	file := [ FileLocator workingDirectory / aString ]
+	| bs oldSize fileRef |
+	fileRef := [ (FileLocator workingDirectory / aString) asFileReference ]
 				on: FileDoesNotExistException
 				do: [ :exception | 
-							Stdio stdout nextPutAll: 'The file ', aString, ' is not found.'.
+							Stdio stdout 
+									nextPutAll: 'The file ';
+									nextPutAll: aString;
+									nextPutAll: ' is not found.'.
 							^ self ].
-	bs := CZBibParser bibFromFileNamed: file.
+	bs := CZBibParser bibFromFileReference: fileRef.
 	oldSize := bs size.
 	bs sortByKey.
 	bs size. 
 	oldSize = bs size 
 		ifFalse: [ 
 			Stdio stdout 
-				nextPutAll: 'Problem identified! The original file: ', aString, ' contained ';
+				nextPutAll: 'Problem identified! The original file: ';
+				nextPutAll: aString ;
+				nextPutAll: ' contained ';
 				print: oldSize printString ;
 				nextPutAll: ' entries and the sorted version contains ';
 				print:  bs size printString ;
