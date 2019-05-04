@@ -1,7 +1,9 @@
 tests
 testComment
 	| bibset |
-	bibset := CZBibParser parse: '
+	bibset := self bibParserClass
+		parse:
+			'
 @comment( junk )
 '.
 	self assert: bibset macros isEmpty.

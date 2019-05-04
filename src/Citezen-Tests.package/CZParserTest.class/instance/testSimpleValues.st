@@ -1,8 +1,9 @@
 tests
 testSimpleValues
 	| bibset entry |
-	bibset := CZBibParser 
-				parse: '
+	bibset := self bibParserClass
+		parse:
+			'
 @sometype(somekey,
 	num = 42,
 	ref = 42foo,

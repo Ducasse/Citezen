@@ -1,4 +1,4 @@
-test data
+resources
 auxFile
 	^'junk
 	\citation{foobar}

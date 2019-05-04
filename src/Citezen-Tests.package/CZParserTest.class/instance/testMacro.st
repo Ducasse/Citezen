@@ -1,7 +1,9 @@
 tests
 testMacro
 	| bibset |
-	bibset := CZBibParser parse: '
+	bibset := self bibParserClass
+		parse:
+			'
 @string(foo = {bar})
 '.
 	self assert: (bibset macroAt: 'foo') rawValue equals: 'bar'.

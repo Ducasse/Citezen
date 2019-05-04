@@ -1,0 +1,3 @@
+tests
+auxParserClass
+	^ CZAuxParser
