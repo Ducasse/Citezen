@@ -2,9 +2,8 @@ actions
 sortFile: aString
 
 	| bs oldSize fileRef |
-	fileRef := [ (FileLocator workingDirectory / aString) asFileReference ]
-				on: FileDoesNotExistException
-				do: [ :exception | 
+	fileRef := (FileLocator workingDirectory / aString) asFileReference 
+						exists ifFalse: [  
 							Stdio stdout 
 									nextPutAll: 'The file ';
 									nextPutAll: aString;
