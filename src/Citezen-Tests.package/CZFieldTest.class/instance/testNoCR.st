@@ -37,3 +37,4 @@ testNoCR
 	self assert: ((withCR at: #abstract) value at: 47) equals: Character cr.
 	(withCR at: #abstract) fixCRs.	
 	self assert: ((withCR at: #abstract) value at: 47) equals: Character lf.
+
