@@ -2,6 +2,7 @@ visiting
 visitString: aCZString
 	
 	| latexifiedString |
+	aCZString fixCRs.
 	latexifiedString := aCZString notExpanded asString.
 	
 	"latexifiedString := (latexifiedString copyReplaceAll: '&' with: '\&')."

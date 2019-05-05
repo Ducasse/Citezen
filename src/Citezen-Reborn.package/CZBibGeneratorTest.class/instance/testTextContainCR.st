@@ -39,6 +39,7 @@ testTextContainCR
 	
 	result := (self generatorClass new visit: withCR) contents.
 
-	"apparently there are still cr and this is a problem for the ruby scritp"
+	"apparently there are still cr and this is a problem for the ruby scritp
+	so now we are really making sure that we do not have cr anymore."
 	self deny: (result includes: Character cr).
 
