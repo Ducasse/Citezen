@@ -2,13 +2,14 @@ actions
 sortFile: aString
 
 	| bs oldSize fileRef |
-	fileRef := (FileLocator workingDirectory / aString) asFileReference 
-						exists ifFalse: [  
-							Stdio stdout 
-									nextPutAll: 'The file ';
-									nextPutAll: aString;
-									nextPutAll: ' is not found.'.
-							^ self ].
+	fileRef := (FileLocator workingDirectory / aString) asFileReference.
+	fileRef exists 
+		ifFalse: [  
+					Stdio stdout 
+						nextPutAll: 'The file ';
+						nextPutAll: aString;
+						nextPutAll: ' is not found.'.
+					^ self ].
 	bs := CZBibParser bibFromFileReference: fileRef.
 	oldSize := bs size.
 	bs sortByKey.
