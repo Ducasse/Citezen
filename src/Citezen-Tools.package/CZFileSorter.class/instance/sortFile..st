@@ -24,11 +24,12 @@ sortFile: aString
 				nextPutAll: ' entries and the sorted version contains ';
 				print:  bs size printString ;
 				nextPutAll: ' entries. So we saved the file to a new name:'.
-			CZFileSaver new bibset: bs ; saveTo: aString, 'Sorted.bib'
+			CZFileSaver new bibset: bs ; saveTo: aString, 'Sorted.bib', '.'
 			].
 	Stdio stdout 
 		nextPutAll:	'Sorted file: ';
 		nextPutAll: aString;
+		nextPutAll: ' .';
 		nextPutAll: ' It contains ';
 		print: bs size;
 		nextPutAll: ' entries.'.
