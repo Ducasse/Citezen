@@ -1,4 +1,8 @@
 file helper
 filename: aString
-
-	outputStream := aString asFileReference ensureDelete; writeStream
+	outputStream := (ZnNewLineWriterStream on:
+							(aString asFileReference
+								ensureDelete;
+								writeStream))
+							forLf;
+							yourself
