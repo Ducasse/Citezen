@@ -5,7 +5,8 @@ baseline18: spec
 	spec for: #common do: [
 		spec baseline: 'SmaCC' with: [
 				spec
-					repository: 'github://ThierryGoubier/SmaCC:v2.0.5.1'
+					repository: 'github://ThierryGoubier/SmaCC:v2.0.5.1';
+					load: #('Runtime' )
 					"repository: 'github://Ducasse/OldSmaccRuntime/src' "
 					].
 				
