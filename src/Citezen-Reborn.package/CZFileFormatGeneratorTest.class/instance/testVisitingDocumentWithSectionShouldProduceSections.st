@@ -5,7 +5,7 @@ testVisitingDocumentWithSectionShouldProduceSections
 	| visitor |
 	visitor := self generatorClass new.
 	visitor visit: CZDocBuilderTest aDoc.
-	self assert: (self isString: visitor contents equalsTo:
+	self assert: (self isString: visitor contents withSqueakLineEndings equalsTo:
 '  
 Refereed Articles in International Journals
 
@@ -16,4 +16,4 @@ Refereed Articles in International Conferences
 
 Denker, Marcus and Suen, Mathieu and Ducasse, St\''ephane, The Meta in Meta-object Architectures, Proceedings of TOOLS EUROPE 2008, 11, 218--237, Springer-Verlag, 2008, http://scg.unibe.ch/archive/papers/Denk08bMetaContextLNBIP.pdf, 10.1007/978-3-540-69824-1_13, internationalconference, yes, ACT, aeres12, RMOD, non, 1865-1348, scg-pub jb08 fb08 snf08 reflectivity, dans, LNBIP, inria-00271286,p56w09p.
 
-')
+' withSqueakLineEndings)
