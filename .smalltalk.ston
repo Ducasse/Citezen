@@ -7,8 +7,5 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #coverage : {
-      #packages : [ 'Citezen*' ]
-    }
   }
 }
