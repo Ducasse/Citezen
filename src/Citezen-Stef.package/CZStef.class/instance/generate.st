@@ -5,7 +5,8 @@ generate
 		builder := genClass new
 			fileNamed: 'rmod.bib';
 			authorMatchingString: '*', 'Ducasse', '*';
-			bodySpecification: #( #PhDAndHabilitation #internationalJournal #nationalJournal #topConference #internationalConference  #nationalConference #invitedPaper #bookChapter #book #editor #internationalWorkshop #toolDemo #vulgarisation);
+			fieldOrder:  #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year);
+			bodySpecification: #(#internationalJournal  #topConference #internationalConference #nationalJournal #nationalConference #invitedPaper #bookChapter #book #editor #internationalWorkshop #toolDemo #vulgarisation #PhDAndHabilitation);
 			setFilteringOn.
 		builder generate.	
 		]
