@@ -2,4 +2,4 @@ visiting
 visitPeople: aCZPeople
 
 	aCZPeople perform:  expandOption.
-	self outputStream nextPutAll:  aCZPeople notExpanded "so that we are sure that we get \'' for é"
+	self outputStream nextPutAll:  aCZPeople expanded "so that we are sure that we get \'' for é"
