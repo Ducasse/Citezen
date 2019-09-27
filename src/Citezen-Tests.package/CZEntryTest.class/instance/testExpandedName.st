@@ -13,4 +13,5 @@ testExpandedName
 		
 		self 
 		assert: dirty author rawValueObject normalizedName 
-		equals: 'H. Abdeen, I. Alloui, S. Ducasse, D. Pollet and M. Suen'.
+		equals: 
+ 'Abdeen, Hani and Alloui, Ilham and Ducasse, St\''ephane and Pollet, Damien and Suen, Mathieu'		
