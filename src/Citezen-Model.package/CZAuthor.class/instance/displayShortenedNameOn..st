@@ -7,6 +7,10 @@ displayShortenedNameOn: aStream
 				nextPut: firstName first;
 				nextPut: $.;
 				space].
+			
+	self particles
+		do: [:particule | aStream nextPutAll: particule ; space].
+		
 	self lastNames
 		do: [:lastName | aStream nextPutAll: lastName]
 		separatedBy: [aStream space]
