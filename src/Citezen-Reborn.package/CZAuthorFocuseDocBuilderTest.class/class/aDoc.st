@@ -1,7 +1,7 @@
 examples for tests
 aDoc
 
-	^ CZHackSingleAuthorDocBuilder new 
+	^ CZAuthorFocusedDocBuilder new 
 			bibset: self someArticles;
 			authorMatchingString: '*S*Ducasse*';
 			noHeader;

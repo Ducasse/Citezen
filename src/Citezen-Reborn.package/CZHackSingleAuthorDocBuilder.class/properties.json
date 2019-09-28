@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "StephaneDucasse 5/6/2018 22:01",
+	"commentStamp" : "StephaneDucasse 9/28/2019 09:13",
 	"super" : "CZDocBuilder",
 	"category" : "Citezen-Reborn-DocumentBuilder",
 	"classinstvars" : [ ],
@@ -9,6 +9,6 @@
 		"noHeader",
 		"xhtml"
 	],
-	"name" : "CZSingleAuthorDocBuilder",
+	"name" : "CZHackSingleAuthorDocBuilder",
 	"type" : "normal"
 }
