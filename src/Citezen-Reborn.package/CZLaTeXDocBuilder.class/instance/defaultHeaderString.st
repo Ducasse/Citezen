@@ -3,7 +3,7 @@ defaultHeaderString
 
 	^ '\documentclass{article}
 \usepackage{times}
-\usepacakge{hyperref}
+\usepackage{hyperref}
 \newcommand{\czauthors}[1]{#1}
 \newcommand{\cztitle}[1]{\emph{``#1''''}}
 \newcommand{\czjournal}[1]{#1}
