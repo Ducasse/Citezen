@@ -6,8 +6,14 @@ visitField: aField
 	aField key = CZPool pages ifTrue: [self outputStream nextPutAll: 'pp. '].
 
 	fieldEmbellishingTable at: aField key ifPresent: [:t | self outputStream nextPutAll: ' ', t].
+	aField key =  CZPool URL
+		ifTrue: [ self outputStream nextPutAll: '\href{'  ].
 	aField dispatchVisitor: self.
 	"One day I have to think about this dispatch ugly point"
 	fieldEmbellishingTable at: aField key ifPresent: [:t | self outputStream nextPutAll: '}'].
 	aField key = CZPool editor
 		ifTrue: [ self outputStream nextPutAll: ' ed.'].
+	aField key =  CZPool URL
+		ifTrue: [ self outputStream nextPutAll: '}{PDF}'  ].
+			
+	

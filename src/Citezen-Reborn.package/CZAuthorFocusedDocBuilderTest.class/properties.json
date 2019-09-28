@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Citezen-Reborn-DocumentBuilder",
+	"category" : "Citezen-Reborn-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"bibset"
 	],
-	"name" : "CZAuthorFocuseDocBuilderTest",
+	"name" : "CZAuthorFocusedDocBuilderTest",
 	"type" : "normal"
 }

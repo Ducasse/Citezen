@@ -1,37 +1,5 @@
 team 
 teamMemberPatterns
-	^ teamMemberPatterns ifNil: [ teamMemberPatterns := 
-			#( '*Ducasse*S*' '*S*Ducasse*' '*Denker*' 
-				'*Auverlot*' '*Larcheveque*'
-				'*Anquetil*' '*Costiou*' '*Aranega*'
-				'*Govin*'
-				'*Pollet*' 
-				'*Abdeen*' 
-				'*Laval*' 
-				'*Peirs*' 
-				'*Falleri*' 
-				'*Denier*' '*Marr*'
-			'*Hora*' 
-			'*Etien*' 
-			'*Blondeau*'
-			'*Casaccio*' 
-			'*Bruni*'
-			'*Tesone*'
-			'*Teruel*'
-			'*Polito*' 
-			'*Martinez*Peck*' 
-			'*Uquillas*' 
-			'*Arnaud*' 
-			'*Bhatti*U*' 
-			'*Fernandes*' 
-			'*Razavizadeh*' 
-			'*Uquilla*' 
-			'*Dias*' 
-			'*Cassou*' 
-			'*Ryseghem*' 
-			'*Papoulias*' 
-			'*Demarey*' 
-			'*Bera*'
-			'*Miranda*'
-			'*B*ra*' 
-			'*Santos*')]
+	^ teamMemberPatterns
+		ifNil:
+			[ teamMemberPatterns := #('*Ducasse*S*' '*S*Ducasse*' '*Denker*' '*Auverlot*' '*Anquetil*' '*Costiou*' '*Aranega*' '*Govin*' '*Pollet*' '*Abdeen*' '*Laval*' '*Marr*' '*Hora*' '*Etien*' '*Blondeau*' '*Casaccio*' '*Bruni*' '*Tesone*' '*Teruel*' '*Polito*' '*Martinez*Peck*' '*Uquillas*' '*Arnaud*' '*Bhatti*U*' '*Fernandes*' '*Razavizadeh*' '*Uquilla*' '*Dias*' '*Cassou*' '*Ryseghem*' '*Papoulias*' '*Demarey*' '*Bera*' '*Miranda*') ]

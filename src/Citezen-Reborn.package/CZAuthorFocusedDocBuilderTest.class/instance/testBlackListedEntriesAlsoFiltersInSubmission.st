@@ -11,4 +11,5 @@ testBlackListedEntriesAlsoFiltersInSubmission
 	"now testing that we removed the keys we do not want"	
 	builder keysOfBlackListedEntries: #(Abde10a Chev11a).
 	builder filter.
+	"We removed the non author and the blacklisted"
 	self assert: builder workingBibSet size equals: 3.	

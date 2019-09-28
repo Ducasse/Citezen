@@ -1,9 +1,7 @@
 queries
 editorQuery
-	"We refine it for a single author!: either the author is in the editor field or the entrie is flagged as workshopproceeddings."
-	^ (CZFieldQuery
-		named: #editor
-		checks: [ :value | 
-			 self authorMatchingString match: value ])
-		OR: (self annotationWithType: '*workshopproceedings*')
+	"We refine it for a single author!: the entrie is flagged as workshopproceeddings or as editor. This way papers written by the author that is also editor will not be mixed in the editor zone."
+
+	"we know that this is in the author entries, so he is an editor since he marked it"
+	^ (self annotationWithType: '*workshopproceedings*') OR: (self annotationWithType: '*editor*')
 	

@@ -7,4 +7,4 @@ testAuthorMatchingSelectEntryWithCorrespondingAuthor
 					authorMatchingString: '*S*Ducasse*';
 					bibset: bibset.
 	self assert: builder workingBibSet size equals: 6.				
-	self assert: ( builder workingBibSet select: builder authorQuery) size equals: 5
+	self assert: (builder workingBibSet select: builder authorQuery) size equals: 5

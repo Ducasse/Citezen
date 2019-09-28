@@ -1,6 +1,10 @@
-I'm responsible for building document. I work on a bibset that is filtered.
-First we remove in submission, then bacllisted entries
-and once all the filtering is done. 
+I'm responsible for building document (composite of instances of DocElement subclasses). 
+
+I work on a bibset that is filtered.
+	- First we remove in submission, 
+	- then black-listed entries. 
+
+Subclasses may change the filtering specifying authorMatchingString:
 
 I have a title and sections and for example, HTML subclasses also point to a bib file. 
 My sections are built out of queries over the bibset that I use. 
