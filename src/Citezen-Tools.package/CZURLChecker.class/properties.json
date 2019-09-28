@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "StephaneDucasse 4/28/2019 21:55",
+	"commentStamp" : "StephaneDucasse 9/28/2019 17:36",
 	"super" : "CZTool",
 	"category" : "Citezen-Tools",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "CZRMODCommiter",
+	"instvars" : [
+		"wrongEntries"
+	],
+	"name" : "CZURLChecker",
 	"type" : "normal"
 }
