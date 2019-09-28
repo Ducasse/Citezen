@@ -1,4 +1,4 @@
 initialize
 defaultFieldOrder
 
-	^ #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi).
+	^ #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #pdf #url #doi).
