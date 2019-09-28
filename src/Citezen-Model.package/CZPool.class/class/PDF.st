@@ -1,3 +1,3 @@
 constants
-PDF
+pdf
 	^ #pdf
