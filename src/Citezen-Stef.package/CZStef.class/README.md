@@ -3,6 +3,10 @@ CZStef new latex; html; bib ; generate
 
 CZStef new latex generate 
 
+The previous expressions generate well the bib with the PDF.
+But the html header is too generic so we should copy and paste the body and this is not really good.
+
+In adding the ref to pdf in html do not look good.
 
 
 

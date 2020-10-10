@@ -17,7 +17,8 @@ buildLatex
 			  #year 
 			  #school
 			  #impactfactor 
-			  #misc); 
+			  #misc
+			  #pdf); 
 		headerString: self latexHeaderString; 
 		setFilteringOn.
 	builder generate.	
