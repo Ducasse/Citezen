@@ -19,4 +19,4 @@ latexHeaderString
 	{\stepcounter{publi}
 	\item[\bf{[\arabic{publi}]}]}
 
-	' withUnixLineEndings
+	' withInternalLineEndings
