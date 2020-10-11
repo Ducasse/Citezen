@@ -1,0 +1,4 @@
+testing
+isPDF
+
+	^ key = #pdf

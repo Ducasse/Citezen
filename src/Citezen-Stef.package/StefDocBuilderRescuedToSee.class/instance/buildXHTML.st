@@ -19,7 +19,8 @@ buildXHTML
 			  #impactfactor 
 			  #misc
 			  #url
-			  #doi); "removed doi and url since they may contain _ and the generator does not handle that well for the moment."
+			  #doi
+			#pdf	); "removed doi and url since they may contain _ and the generator does not handle that well for the moment."
 		headerString: self xmlHeaderString;
 		footerString: self xmlFooterString; 
 		setFilteringOn.
