@@ -41,5 +41,5 @@ testTextContainCR
 	"The generated output is usually in lf"	
 	result := (self generatorClass new visit: withCR) contents.
 	"now in the tests we should make sure that we only get cr but of course we do not cover well the problem."
-	self assert: (result withSqueakLineEndings includes: Character cr).
+	self assert: (result withInternalLineEndings includes: Character cr).
 

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "StephaneDucasse 5/6/2018 22:33",
+	"commentStamp" : "StephaneDucasse 10/10/2020 10:31",
 	"super" : "Object",
 	"category" : "Citezen-Stef",
 	"classinstvars" : [ ],
@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"generators",
-		"bodySpecification"
+		"bodySpecification",
+		"fieldSpecification"
 	],
 	"name" : "CZStef",
 	"type" : "normal"

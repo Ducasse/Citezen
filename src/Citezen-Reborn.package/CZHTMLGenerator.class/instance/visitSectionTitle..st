@@ -1,12 +1,9 @@
 visiting
 visitSectionTitle: aCZString
 	outputStream
-		nextPutAll: '<h4';
-		nextPutAll: '>';
-		nextPutAll:
-			(self treatString: aCZString expanded);
-		nextPutAll: '</h4';
-		nextPutAll: '>'.
+		nextPutAll: '<h4>';
+		nextPutAll: 	(self treatString: aCZString expanded);
+		nextPutAll: '</h4>'.
 	self
 		line;
 		line

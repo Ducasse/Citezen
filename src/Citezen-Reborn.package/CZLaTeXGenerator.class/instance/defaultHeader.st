@@ -2,6 +2,7 @@ configuration
 defaultHeader
 	^ '\documentclass{article}
 \usepackage{times}
+\usepackage{hyperref}
 
 \newcommand{\czauthors}[1]{#1}
 \newcommand{\cztitle}[1]{\emph{``#1''''}}

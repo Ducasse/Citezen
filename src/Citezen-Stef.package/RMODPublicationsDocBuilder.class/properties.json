@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "StephaneDucasse 8/10/2016 17:35",
-	"super" : "CZSingleAuthorDocBuilder",
+	"super" : "CZHackSingleAuthorDocBuilder",
 	"category" : "Citezen-Stef",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "StephaneDucasse 8/11/2016 08:12",
-	"super" : "CZBodyDocBuilder",
+	"super" : "CZAuthorFocusedDocBuilder",
 	"category" : "Citezen-Reborn-DocumentBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],

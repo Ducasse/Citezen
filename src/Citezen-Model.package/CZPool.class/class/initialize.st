@@ -12,6 +12,7 @@ initialize
 	Note := self note.
 	Number := self number. 
 	Pages := self pages. 
+	PDF := self pdf.
 	Publisher := self publisher.
 	School := self school.
 	Series := self series.
