@@ -1,3 +1,0 @@
-queries
-invited
-	^ CZQuery invited

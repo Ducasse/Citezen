@@ -1,20 +1,22 @@
 building
 statistics
-	| stream |
-	stream := FileStream forceNewFileNamed: 'tableForEvaluationReport.tex'.
-	stream
+	'tableForEvaluationReport.tex' asFileReference ensureDelete.
+	'tableForEvaluationReport.tex' asFileReference
+		writeStreamDo: [ :stream | 
+		stream
 		nextPutAll:
 			'\begin{center}
-\begin{tabular}{l|r|r|r|r|r} \hline
-&2012&2013&2014&2015&2016\\ \hline \hline';
+\begin{tabular}{l|r|r|r|r|r|r} \hline
+&2016&2017&2018&2019&2020&2021\\ \hline \hline';
 		lf.
-	#(#phdthesis #internationalJournal #nationalJournal #topConference #internationalConference #nationalConference #book #bookChapter #internationalWorkshop #vulgarisation #techReport)
+	#(#phdthesis #internationalJournal #nationalJournal #topConference #internationalConference #nationalConference #book #booklet #bookChapter #internationalWorkshop #vulgarisation #techReport)
 		do: [ :each | 
 			self lineFor: each into: stream.
 			stream
 				nextPutAll: '\\ \hline';
 				lf ].
 	stream nextPutAll: '\end{tabular}\end{center}'
+]
 
 	"\begin{center}
 \begin{tabular}{l|r|r|r|r} \hline

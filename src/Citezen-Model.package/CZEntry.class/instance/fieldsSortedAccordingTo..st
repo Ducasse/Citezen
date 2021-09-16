@@ -1,6 +1,6 @@
 enumerating
 fieldsSortedAccordingTo: aCol
-	"Returns a collection of fields as specified by the keys given in aCol, if a key in the receiver is not present in the argument, put it at the end. If you want to only get the field as specified by the argument use the companion message fielsFilteredAndSortedAccordingTo:"
+	"Returns a collection of fields as specified by the keys given in aCol, if a key in the receiver is not present in the argument, put it at the end. If you want to only get the field as specified by the argument use the companion message fieldsFilteredAndSortedAccordingTo:"
 	
 	| fieldCol keysCol toPutAtEnd |
 	fieldCol := OrderedCollection new: aCol size.
