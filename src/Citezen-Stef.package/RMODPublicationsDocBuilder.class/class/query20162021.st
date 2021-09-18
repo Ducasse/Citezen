@@ -6,7 +6,8 @@ query20162021
 
 	| builder |
 	builder := self new
-		fileNamed: 'rmod.bib';
+			"fileNamed: 'rmod.bib';"
+		fileNamed: '/Users/ducasse/Workspace/SimpleFiles/LSEFiles/Bibliography/bib/rmod.bib';
 		startingYear: 2016;
 		endingYear: 2021;
 		teamMembers: self teamFor20162021;

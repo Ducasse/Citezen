@@ -8,7 +8,8 @@ generateLatexForEval2008to2012
 	builder := self new
 		toLatex;
 		english;
-		fileNamed: 'rmod.bib';
+		"fileNamed: 'rmod.bib';"
+		fileNamed: '/Users/ducasse/Workspace/SimpleFiles/LSEFiles/Bibliography/bib/rmod.bib';
 		fieldOrder:
 			#(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #impactfactor #misc #url #doi);
 		startingYear: 2008;
