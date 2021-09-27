@@ -7,6 +7,6 @@ lineFor: selector into: aStream
 	aStream
 		nextPutAll: selector asString;
 		space.
-	2016 to: 2021 do: [ :each | 
+	2017 to: 2021 do: [ :each | 
 		aStream nextPutAll: '& '.
 		aStream nextPutAll: (dict at: each ifAbsent: [ Set new ]) size printString ]

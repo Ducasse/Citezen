@@ -15,5 +15,10 @@ How to use me for evaluation report helping.
 
 	we should get three left: unpublished, and two tooldemos. 
 	
-	
+```
+ RMODPublicationsDocBuilder   
+  query20162021
+  generateTeamBibliography;
+  statistics2017
+```
 		
