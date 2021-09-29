@@ -12,6 +12,8 @@ to generate something like that.....
 \newblock \href {http://hal.inria.fr/tel-01086785} {\path{[hal:tel-01086785]
   }}.
 
+Pay attention, we make sure that DOI and HALID are managed at the end (in case they were not specified).
+
 
 | visitor bibset |
 bibset := CZBibParser parse: (FileStream readOnlyFileNamed: 'rmod.bib') contents.
