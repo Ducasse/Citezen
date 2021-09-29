@@ -1,3 +1,3 @@
 builder
 techReport
-	^ CZTypeQuery checks: [ :value | value = 'techreport' ]
+	^ CZTypeQuery checks: [ :value |'*report*' match: value]

@@ -4,7 +4,7 @@ generateTeamBibliography
 
 	| docBuilder |
 	docBuilder := CZBblDocBuilder new
-		keysOfBlackListedEntries: #(Denk18a Denk19a Denk20a Denk21a Anqu17a Cost20c);
+		keysOfBlackListedEntries: #(Denk18a Denk19a Denk20a Denk21a Anqu17a Cost20c Cost18b Verh21d);
 		bibset: self class query20162021 workingBibSet;
 		bodySpecification: #(PhDAndHabilitation internationalJournal nationalJournal topConference internationalConference  nationalConference  invitedPaper bookChapter book 
 		booklet internationalWorkshop toolDemo technicalReport vulgarisation ) ;
