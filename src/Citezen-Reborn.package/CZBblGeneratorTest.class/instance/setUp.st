@@ -1,5 +1,6 @@
 running
 setUp
+	super setUp.
 	bibset := CZSet new.
 	entry := (CZEntry type: CZEntry article)
 		key: #Duca10a;

@@ -1,7 +1,7 @@
 setUp
 setUp 
 
-	formatGenerator := self generatorClass new.
+	formatGenerator := self generatorClass new fieldOrder: #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi #'hal-id'); yourself.
 	articleEntry := (CZBibParser
 		parse:
 			'	@article{Herm00a,
