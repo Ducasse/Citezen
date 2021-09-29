@@ -8,7 +8,8 @@
 	"instvars" : [
 		"startingYear",
 		"endingYear",
-		"teamMembers"
+		"teamMembers",
+		"perKind"
 	],
 	"name" : "RMODPublicationsDocBuilder",
 	"type" : "normal"

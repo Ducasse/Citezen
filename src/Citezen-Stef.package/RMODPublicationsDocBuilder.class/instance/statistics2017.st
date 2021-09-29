@@ -1,17 +1,21 @@
 building
 statistics2017
+	
+	
 	'tableForEvaluationReport.tex' asFileReference ensureDelete.
 	'tableForEvaluationReport.tex' asFileReference
 		writeStreamDo: [ :stream | 
 		stream
 		nextPutAll:
 			'\begin{center}
-\begin{tabular}{l|r|r|r|r|r} \hline
-&2017&2018&2019&2020&2021\\ \hline \hline';
+\begin{tabular}{l|r|r|r|r|r||r} \hline
+&2017&2018&2019&2020&2021&Tot.\\ \hline \hline';
 		lf.
 	#(#phdthesis #internationalJournal #nationalJournal #topConference #internationalConference #nationalConference #book #booklet #bookChapter #internationalWorkshop #vulgarisation #techReport)
-		do: [ :each | 
+		do: [ :each |
+			perKind := 0.
 			self lineFor: each into: stream.
+			stream nextPutAll: '&', perKind asString.
 			stream
 				nextPutAll: '\\ \hline';
 				lf ].

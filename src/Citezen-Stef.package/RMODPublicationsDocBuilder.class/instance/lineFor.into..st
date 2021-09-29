@@ -8,5 +8,9 @@ lineFor: selector into: aStream
 		nextPutAll: selector asString;
 		space.
 	2017 to: 2021 do: [ :each | 
+		| numberPerYear |
+		numberPerYear := (dict at: each ifAbsent: [ Set new ]) size.
+		perKind := perKind + numberPerYear.
 		aStream nextPutAll: '& '.
-		aStream nextPutAll: (dict at: each ifAbsent: [ Set new ]) size printString ]
+		aStream nextPutAll: numberPerYear printString.
+		 ]
