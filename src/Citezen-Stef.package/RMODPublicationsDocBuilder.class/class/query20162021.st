@@ -6,12 +6,11 @@ query20162021
 
 	| builder |
 	builder := self new
-			"fileNamed: 'rmod.bib';"
 		fileNamed: '/Users/ducasse/Workspace/SimpleFiles/LSEFiles/Bibliography/bib/rmod.bib';
 		startingYear: 2017;
 		endingYear: 2021;
 		teamMembers: self teamFor20162021;
-		keysOfBlackListedEntries: #(Stein12a Stein12b);
+		keysOfBlackListedEntries: self blackListedEntries ;
 		setFilteringOn;
 		yourself.
 	builder filter.
