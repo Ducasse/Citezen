@@ -1,5 +1,5 @@
 visit
 visitPeople: aCZPeople
-
-	aCZPeople perform:  expandOption.
-	self outputStream nextPutAll: (self treatString: aCZPeople expanded)
+	self halt.
+	aCZPeople perform: expandOption.
+	self outputStream nextPutAll: (self treatString: aCZPeople notExpanded)

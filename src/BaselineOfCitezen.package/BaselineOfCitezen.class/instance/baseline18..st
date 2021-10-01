@@ -7,7 +7,7 @@ baseline18: spec
 				spec
 					repository: 'github://ThierryGoubier/SmaCC:308d64665dfb25b1d21f93f44270066aecb5c672';
 					loads: #('Runtime' )
-					"repository: 'github://Ducasse/OldSmaccRuntime/src' "
+					"Could be changed to git@github.com:SmaCCRefactoring/SmaCC.git "
 					].
 				
 		spec

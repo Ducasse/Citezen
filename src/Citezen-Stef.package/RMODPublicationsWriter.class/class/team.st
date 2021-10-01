@@ -1,0 +1,3 @@
+generation
+team
+	^ #('*Ducasse*' '*Denker*' '*Auverlot*' '*Larcheveque*' '*Anquetil*' '*Govin*' '*Pollet*' '*Abdeen*' '*Laval*' '*Peirs*' '*Falleri*' '*Denier*' '*Marr*' '*Hora*' '*Etien*' '*Blondeau*' '*Casaccio*' '*Bruni*' '*Tesone*' '*Teruel*' '*Polito*' '*Martinez*Peck*' '*Uquillas*' '*Arnaud*' '*Bhatti*U*' '*Fernandes*' '*Razavizadeh*' '*Uquilla*' '*Dias*' '*Cassou*' '*Ryseghem*' '*Papoulias*' '*Demarey*' '*B*ra*' '*Rocha*' '*Santos*' '*Miranda*' '*Aranega*' '*Bragagnolo*' '*Bruni*' '*Bera*' '*Blondeau*' '*Verhaeghe*' '*Costiou*' '*Delplanque*' '*Zaytsev*' '*Dias*' '*Dupri*' '*Govin*' '*Kaleba*' '*Margu*' '*Salgado*' '*Agouf*' '*Lecerf*' '*Marra*' '*Pierro*' '*Naddeo*' '*Oumarou*' '*Tesone*' '*Rogliano*' '*cerf*')

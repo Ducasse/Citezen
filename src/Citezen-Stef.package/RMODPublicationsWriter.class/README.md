@@ -1,0 +1,3 @@
+```
+RMODPublicationsWriter new generateTeamBibliography
+```

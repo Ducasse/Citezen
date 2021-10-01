@@ -11,6 +11,6 @@
 		"teamMembers",
 		"perKind"
 	],
-	"name" : "RMODPublicationsDocBuilder",
+	"name" : "RMODPublicationsBblForReportDocBuilder",
 	"type" : "normal"
 }

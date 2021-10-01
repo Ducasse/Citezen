@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StephaneDucasse 10/1/2021 15:35",
+	"super" : "CZHackSingleAuthorDocBuilder",
+	"category" : "Citezen-Stef",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"startingYear",
+		"endingYear",
+		"teamMembers",
+		"perKind"
+	],
+	"name" : "RMODPublicationsWriter",
+	"type" : "normal"
+}
