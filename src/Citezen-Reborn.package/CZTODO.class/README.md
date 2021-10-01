@@ -1,0 +1,8 @@
+- Add a tag 
+- Remove Citezen-Rendering.
+- Remove Phrase stuff. 
+- Extract DocumentModel and builder in a separate package
+- CZDocBuilder should use CZPool
+- Strategy to filter fields
+- RMODPublicationWriter sucks because it inherits from a hack.
+- Nice pillar output (check the embellish stuff of Bbl...

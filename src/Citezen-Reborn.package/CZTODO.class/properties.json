@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "PackageManifest",
+	"commentStamp" : "StephaneDucasse 10/1/2021 22:02",
+	"super" : "Object",
 	"category" : "Citezen-Reborn-Manifest",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ManifestCitezenReborn",
+	"name" : "CZTODO",
 	"type" : "normal"
 }
