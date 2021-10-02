@@ -1,5 +1,3 @@
-- Nice pillar output (check the embellish stuff of Bbl...
-- Fix acute in HTML renderer
 - Add a tag 
 - Remove Citezen-Rendering.
 - Remove Phrase stuff. 
@@ -17,3 +15,6 @@
 	^ (anEntry hasFieldWithKey: HALID)
 		ifTrue: [(self halKeyForEntry: anEntry)]
 		ifFalse: [ anEntry key asString ]
+
+- resetConversionTable should be in toHtmlTable and toAccentedCharTable
+and even more in the parse: methods
