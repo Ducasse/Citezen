@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "StephaneDucasse 8/10/2016 13:03",
 	"super" : "CZDecoratedDocBuilder",
-	"category" : "Citezen-Reborn-DocumentBuilder",
+	"category" : "Citezen-Reborn-Pillar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
