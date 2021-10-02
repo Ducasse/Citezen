@@ -2,4 +2,4 @@ visit
 visitPeople: aCZPeople
 
 	aCZPeople perform: expandOption.
-	self outputStream nextPutAll: (self treatString: aCZPeople notExpanded)
+	self outputStream nextPutAll: (self treatString: aCZPeople shortenedName)

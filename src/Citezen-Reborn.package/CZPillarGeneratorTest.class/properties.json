@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "CZAbstractFileFormatGeneratorTest",
+	"category" : "Citezen-Reborn-Pillar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry",
+		"entry2",
+		"renderer",
+		"bibset",
+		"uqui2"
+	],
+	"name" : "CZPillarGeneratorTest",
+	"type" : "normal"
+}
