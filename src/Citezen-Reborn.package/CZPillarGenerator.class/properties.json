@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"writer"
+		"writer",
+		"fieldEmbellishingTableStart",
+		"fieldEmbellishingTableEnd"
 	],
 	"name" : "CZPillarGenerator",
 	"type" : "normal"

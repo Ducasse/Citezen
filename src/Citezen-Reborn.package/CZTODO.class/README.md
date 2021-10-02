@@ -1,6 +1,5 @@
-- Check what the bbl is doing because it does it well. Steven Costiou and Mickaël Kerboeuf and Clotilde Toullec and => Steven Costiou, Mickaël Kerboeuf , ...
 - Nice pillar output (check the embellish stuff of Bbl...
-
+- Fix acute in HTML renderer
 - Add a tag 
 - Remove Citezen-Rendering.
 - Remove Phrase stuff. 
@@ -10,7 +9,7 @@
 - RMODPublicationWriter sucks because it inherits from a hack.
 - Generating html for publicaion is super long
 - Generating html for publicaion displays: *** Warning: PRLinkWarning: Reference : doi.ieeecomputersociety.org/10.1109/IWESEP.2016.13 should end with .pillar or .pier
-- Fix acute in HTML renderer
+
 - Should be a parameter of the generator because using hal is a bit too strong.
 	keyForEntry: anEntry
 	"if there is a hal entry emit as author:hal- as in the raweb. Else put simply the key."
