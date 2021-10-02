@@ -1,3 +1,4 @@
 string encoding hooks
 setEncodedCharacterTransformationTable
+	CZAccentuateCharactersParser resetConversionTable.
 	^ CZAccentuateCharactersParser toHtmlTable
