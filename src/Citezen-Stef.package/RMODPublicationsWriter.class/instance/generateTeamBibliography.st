@@ -4,6 +4,7 @@ generateTeamBibliography
 	| docBuilder |
 	docBuilder := CZPillarDocBuilder new
 		nameOfResultingFile: 'publications' ;
+		withHeader;
 		keysOfBlackListedEntries: self blackListedEntries;
 		bibset: self workingBibSet;
 		bodySpecification: #( internationalJournal  topConference internationalConference  nationalJournal nationalConference  invitedPaper bookChapter book 
