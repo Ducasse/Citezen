@@ -1,4 +1,4 @@
 predefined accessing
 year
 
-	^ self at: CZPool year 
+	^ self at: CZFieldPool year 

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SharedPool",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZTypePool",
+	"type" : "normal"
+}

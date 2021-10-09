@@ -1,4 +1,4 @@
 predefined accessing
 title
 
-	^ self at: CZPool title
+	^ self at: CZFieldPool title

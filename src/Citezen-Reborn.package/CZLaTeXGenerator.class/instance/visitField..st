@@ -2,18 +2,18 @@ visiting
 visitField: aField
 	"We should probably use phrases instead of doing everything ourselves."
 	
-	aField key = CZPool volume ifTrue: [self outputStream nextPutAll: 'Volume '].
-	aField key = CZPool pages ifTrue: [self outputStream nextPutAll: 'pp. '].
+	aField key = CZFieldPool volume ifTrue: [self outputStream nextPutAll: 'Volume '].
+	aField key = CZFieldPool pages ifTrue: [self outputStream nextPutAll: 'pp. '].
 
 	fieldEmbellishingTable at: aField key ifPresent: [:t | self outputStream nextPutAll: ' ', t].
-	aField key =  CZPool pdf
+	aField key =  CZFieldPool pdf
 		ifTrue: [ self outputStream nextPutAll: '\href{'  ].
 	aField dispatchVisitor: self.
 	"One day I have to think about this dispatch ugly point"
 	fieldEmbellishingTable at: aField key ifPresent: [:t | self outputStream nextPutAll: '}'].
-	aField key = CZPool editor
+	aField key = CZFieldPool editor
 		ifTrue: [ self outputStream nextPutAll: ' ed.'].
-	aField key =  CZPool pdf
+	aField key =  CZFieldPool pdf
 		ifTrue: [ self outputStream nextPutAll: '}{PDF}'  ].
 			
 	

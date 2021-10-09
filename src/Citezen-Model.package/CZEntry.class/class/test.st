@@ -1,4 +1,4 @@
 metadata
 test
 	"self test"
-	^  { CZPool author . CZPool title . CZPool journal . CZPool title }
+	^  { CZFieldPool author . CZFieldPool title . CZFieldPool journal . CZFieldPool title }

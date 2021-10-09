@@ -5,64 +5,64 @@ initializeNeededFields
 	
 	neededFieldsDictionary 
 		at: #article put: {
-			CZPool author.
-			CZPool title.
-			CZPool journal.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool journal.
+			CZFieldPool year. };
 		at: #book put: {
-			CZPool author .
-			CZPool editor .
-			CZPool title .
-			CZPool publisher .
-			CZPool year. };
-		at: #booklet put: { CZPool title };
+			CZFieldPool author .
+			CZFieldPool editor .
+			CZFieldPool title .
+			CZFieldPool publisher .
+			CZFieldPool year. };
+		at: #booklet put: { CZFieldPool title };
 		at: #conference put: {
-			CZPool author.
-			CZPool title.
-			CZPool booktitle.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool booktitle.
+			CZFieldPool year. };
 		at: #inbook put: {
-			CZPool author.
-			CZPool editor.
-			CZPool title. 
-			CZPool chapter.
-			CZPool pages.
-			CZPool publisher.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool editor.
+			CZFieldPool title. 
+			CZFieldPool chapter.
+			CZFieldPool pages.
+			CZFieldPool publisher.
+			CZFieldPool year. };
 		at: #incollection put: {
-			CZPool author.
-			CZPool title.
-			CZPool booktitle.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool booktitle.
+			CZFieldPool year. };
 		at: #inproceedings put: {
-			CZPool author.
-			CZPool title.
-			CZPool booktitle.
-			CZPool year. };
-		at: #manual put: { CZPool title };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool booktitle.
+			CZFieldPool year. };
+		at: #manual put: { CZFieldPool title };
 		at: #mastersthesis put: {
-			CZPool author.
-			CZPool title.
-			CZPool school.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool school.
+			CZFieldPool year. };
 		at: #misc put: #();
 		at: #phdthesis put: {
-			CZPool author.
-			CZPool title.
-			CZPool school.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool school.
+			CZFieldPool year. };
 		at: #proceedings put: {
-			CZPool title. 
-			CZPool year. };
+			CZFieldPool title. 
+			CZFieldPool year. };
 		at: #techreport put: {
-			CZPool author.
-			CZPool title.
-			CZPool institution.
-			CZPool year. };
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool institution.
+			CZFieldPool year. };
 		at: #unpublished put: {
-			CZPool author.
-			CZPool title.
-			CZPool note. }.
+			CZFieldPool author.
+			CZFieldPool title.
+			CZFieldPool note. }.
 
 	^ neededFieldsDictionary 
 		

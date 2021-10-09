@@ -4,7 +4,7 @@
 	"category" : "Citezen-Reborn-Core-Visitor",
 	"classinstvars" : [ ],
 	"pools" : [
-		"CZPool"
+		"CZFieldPool"
 	],
 	"classvars" : [ ],
 	"instvars" : [

@@ -6,6 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [
 		"Address",
+		"Annote",
 		"Author",
 		"Book",
 		"BookTitle",
@@ -15,6 +16,7 @@
 		"Editor",
 		"HAL",
 		"HALID",
+		"HALURL",
 		"ImpactFactor",
 		"Institution",
 		"Journal",
@@ -33,6 +35,6 @@
 		"Year"
 	],
 	"instvars" : [ ],
-	"name" : "CZPool",
+	"name" : "CZFieldPool",
 	"type" : "normal"
 }

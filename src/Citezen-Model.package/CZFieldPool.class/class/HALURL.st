@@ -1,0 +1,3 @@
+constants
+HALURL
+	^ #'hal-url'

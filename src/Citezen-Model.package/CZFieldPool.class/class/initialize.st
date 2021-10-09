@@ -2,6 +2,7 @@ initialize
 initialize
 	"self initialize"
 	Address := self address.
+	Annote := self annote.
 	Author := self author. 
 	BookTitle := self booktitle.
 	Chapter := self chapter.
@@ -21,6 +22,8 @@ initialize
 	ImpactFactor := self impactFactor. 
 	DOI := self DOI.
 	HALID := self HALID.
+	HALURL := self HALURL.
+	"normally we do not need impact factor and HALURL"
 	URL := self URL.
 	Misc := self misc.
 	Note := self note. 
