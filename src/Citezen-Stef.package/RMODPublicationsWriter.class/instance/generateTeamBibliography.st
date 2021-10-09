@@ -10,6 +10,6 @@ generateTeamBibliography
 		bibset: self workingBibSet;
 		bodySpecification: #( internationalJournal  topConference internationalConference  nationalJournal nationalConference  invitedPaper bookChapter book 
 		booklet PhDAndHabilitation internationalWorkshop toolDemo technicalReport vulgarisation ) ; 
-		fieldOrder: #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi #'hal-id');
+		fieldOrder: #(#author #title #chapter #journal #booktitle #volume #pages #publisher #school #year #url #doi #'hal-id' #pdf);
 		setFilteringOn.
 	docBuilder generate 

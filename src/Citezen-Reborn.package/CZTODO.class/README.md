@@ -3,6 +3,7 @@
 - Remove Phrase stuff. 
 - Extract DocumentModel and builder in a separate package
 - CZDocBuilder should use CZPool
+- CZEntry isXXX should use CZPool
 - Strategy to filter fields
 - RMODPublicationWriter sucks because it inherits from a hack.
 - Generating html for publicaion is super long

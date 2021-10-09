@@ -1,6 +1,6 @@
 visit
 visitField: aField
-
+	self halt.
 	aField key = HALID ifTrue: [ ^ self outputStream nextPutAll: (self halHrefForField: aField) ].	
 	aField isURL 	
 		ifTrue: [outputStream nextPutAll:  '*URL>' ].
