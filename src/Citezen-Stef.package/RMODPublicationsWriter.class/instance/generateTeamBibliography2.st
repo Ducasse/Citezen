@@ -5,6 +5,7 @@ generateTeamBibliography2
 	docBuilder := CZPillarDocBuilder new
 		nameOfResultingFile: 'publications' ;
 		perYear: true;
+		years: (2007 to: Year currentYearNumber);
 		withHeader;
 		headerString: ' Publications';
 		keysOfBlackListedEntries: self blackListedEntries;

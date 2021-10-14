@@ -5,7 +5,8 @@ buildBody
 		ifTrue: [ 
 			| yearDict |
 			yearDict := workingBibSet groupedBy: CZQuery year.
-			((yearDict keys select: [ :each | each isNumber ]) sort: [:a :b| a>b]) do: 
+			(((yearDict keys select: [ :each | each isNumber ]) sort: [:a :b| a>b]) 
+				select: [:each | years includes: each asNumber]) do: 
 				[ :k | 
 					workingBibSet := (yearDict at: k).
 					currentSectionLevel := 2.

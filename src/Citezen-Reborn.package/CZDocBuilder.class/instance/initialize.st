@@ -11,4 +11,5 @@ initialize
 	self doNotAllowEmptySections.
 	self setFilteringOn.
 	self keysOfBlackListedEntries: self defaultKeysOfBlackListedEntries.
-	currentSectionLevel := 2
+	currentSectionLevel := 2.
+	years := 1990 to: Year currentYearNumber.

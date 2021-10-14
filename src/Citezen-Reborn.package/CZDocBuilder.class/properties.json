@@ -17,7 +17,8 @@
 		"keysOfBlackListedEntries",
 		"fieldOrder",
 		"workingDirectory",
-		"currentSectionLevel"
+		"currentSectionLevel",
+		"years"
 	],
 	"name" : "CZDocBuilder",
 	"type" : "normal"
