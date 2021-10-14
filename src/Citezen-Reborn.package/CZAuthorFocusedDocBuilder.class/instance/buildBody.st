@@ -5,13 +5,14 @@ buildBody
 		ifTrue: [ 
 			| yearDict |
 			yearDict := workingBibSet groupedBy: CZQuery year.
-			(yearDict keys select: [ :each | each isNumber ]) sorted do: 
+			((yearDict keys select: [ :each | each isNumber ]) sort: [:a :b| a>b]) do: 
 				[ :k | 
 					workingBibSet := (yearDict at: k).
+					currentSectionLevel := 2.
+					self addSectionYear: k asString.
+					currentSectionLevel := 3.
 					self treatBody.
 					]
-			
-			
 			 ]
 		ifFalse: [ 
 			self bodySpecification

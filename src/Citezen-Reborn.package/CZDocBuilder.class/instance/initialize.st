@@ -10,4 +10,5 @@ initialize
 	self fieldOrder: self defaultFieldOrder.
 	self doNotAllowEmptySections.
 	self setFilteringOn.
-	self keysOfBlackListedEntries: self defaultKeysOfBlackListedEntries
+	self keysOfBlackListedEntries: self defaultKeysOfBlackListedEntries.
+	currentSectionLevel := 2

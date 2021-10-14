@@ -2,4 +2,6 @@ printing
 printOn: aStream
 
 	super printOn: aStream.
-	title ifNotNil: [aStream nextPutAll: '('; nextPutAll: title expanded; nextPutAll: ')']
+	level ifNotNil: [ title level printOn: aStream ].
+	title ifNotNil: [aStream nextPutAll: '('; nextPutAll: title expanded; nextPutAll: ')'].
+	

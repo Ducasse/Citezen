@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	title := CZString new setValue: ''.
 	text := CZText new text: ''.
-	items := CZSet new
+	items := CZSet new.
+	level := 1.

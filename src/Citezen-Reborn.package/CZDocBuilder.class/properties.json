@@ -16,7 +16,8 @@
 		"shouldFilterNonPublic",
 		"keysOfBlackListedEntries",
 		"fieldOrder",
-		"workingDirectory"
+		"workingDirectory",
+		"currentSectionLevel"
 	],
 	"name" : "CZDocBuilder",
 	"type" : "normal"
