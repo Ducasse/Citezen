@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"bodySpecification"
+		"bodySpecification",
+		"perYear"
 	],
 	"name" : "CZAuthorFocusedDocBuilder",
 	"type" : "normal"
