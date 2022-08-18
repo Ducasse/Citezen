@@ -9,16 +9,22 @@ baseline18: spec
 					loads: #('Runtime' )
 					"Could be changed to git@github.com:SmaCCRefactoring/SmaCC.git "
 					].
-				
+		spec baseline: 'pillarExporter' with: [ 
+					spec 
+						repository: 'github://pillar-markup/pillar:v8.2.7/src' ;
+						className: 'BaselineOfPillarApp';
+						loads: #('Pillar-ExporterPillar') 
+					].
 		spec
 			package: 'Citezen-Model';
+			package: 'Citezen-Pillar'  with: [ spec requires: #pillarExporter ];
 			package: 'Citezen-Parsers' with: [ spec requires: #('Citezen-Model' 'SmaCC')];
 			package: 'Citezen-Rendering' with: [ spec requires: 'Citezen-Model' ];
 			package: 'Citezen-Tools' with: [ spec requires: 'Citezen-Model' ];
 			package: 'Citezen-Query' with: [ spec requires: 'Citezen-Model'];
 			package: 'Citezen-Reborn' with: [spec requires: 'Citezen-Model'];
 			package: 'Citezen-Checking' with: [ spec requires: 'Citezen-Model' ];
-			package: 'Citezen-Stef' with: [ spec requires: 'Citezen-Reborn' ];
+			package: 'Citezen-Stef' with: [ spec requires: #('Citezen-Reborn' 'Citezen-Pillar') ];
 			package: 'Citezen-Tests' with: [ spec requires: #('Core') ].
 			
 		spec
@@ -31,7 +37,7 @@ baseline18: spec
 							 'Citezen-Checking'
 							 'Citezen-Reborn'
 							 'Citezen-Tools'
-							'Citezen-Stef'
 							);
+			group: 'Stef' with: #('Core' 'Citezen-Stef'); 
 			group: 'Tests' with: #('Citezen-Tests')
 	]
