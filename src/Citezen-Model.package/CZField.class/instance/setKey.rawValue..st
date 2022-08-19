@@ -1,4 +1,4 @@
-initialize-release
+initialization
 setKey: aSymbol rawValue: valueFromParser
 	key := aSymbol.
 	value := ((valueFromParser isKindOf: Number) 

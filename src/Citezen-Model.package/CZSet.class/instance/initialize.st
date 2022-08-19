@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initialize
 	super initialize.
 	macros := OrderedCollection new.

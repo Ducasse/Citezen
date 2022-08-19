@@ -1,4 +1,4 @@
-initialize-release
+initialization
 setKey: aSymbol value: czValue
 	key := aSymbol.
 	value := czValue.
