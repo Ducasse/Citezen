@@ -1,4 +1,4 @@
 entry type testing
 isUnpublished
 
-	^ self type = #unpublished
+	^ self type = Unpublished

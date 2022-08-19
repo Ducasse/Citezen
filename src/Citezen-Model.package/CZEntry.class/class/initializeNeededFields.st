@@ -1,27 +1,31 @@
-class initialization
+currently unused
 initializeNeededFields
+	"no used for now."
+
+
 	"self initializeNeededFields"
 	neededFieldsDictionary := Dictionary new.
-	
+	"this is super boring!!!!
+	With a nice hierarchy each entry would declare its fields and we would be done."
 	neededFieldsDictionary 
-		at: #article put: {
+		at: Article put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool journal.
 			CZFieldPool year. };
-		at: #book put: {
+		at: Book put: {
 			CZFieldPool author .
 			CZFieldPool editor .
 			CZFieldPool title .
 			CZFieldPool publisher .
 			CZFieldPool year. };
-		at: #booklet put: { CZFieldPool title };
-		at: #conference put: {
+		at: Booklet put: { CZFieldPool title };
+		at: Conference put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool booktitle.
 			CZFieldPool year. };
-		at: #inbook put: {
+		at: InBook put: {
 			CZFieldPool author.
 			CZFieldPool editor.
 			CZFieldPool title. 
@@ -29,37 +33,37 @@ initializeNeededFields
 			CZFieldPool pages.
 			CZFieldPool publisher.
 			CZFieldPool year. };
-		at: #incollection put: {
+		at: InCollection put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool booktitle.
 			CZFieldPool year. };
-		at: #inproceedings put: {
+		at: InProceedings put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool booktitle.
 			CZFieldPool year. };
-		at: #manual put: { CZFieldPool title };
-		at: #mastersthesis put: {
+		at: Manual put: { CZFieldPool title };
+		at: MastersThesis put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool school.
 			CZFieldPool year. };
-		at: #misc put: #();
-		at: #phdthesis put: {
+		at: Misc put: #();
+		at: PhDThesis  put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool school.
 			CZFieldPool year. };
-		at: #proceedings put: {
+		at: Proceedings put: {
 			CZFieldPool title. 
 			CZFieldPool year. };
-		at: #techreport put: {
+		at: TechReport put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool institution.
 			CZFieldPool year. };
-		at: #unpublished put: {
+		at: Unpublished put: {
 			CZFieldPool author.
 			CZFieldPool title.
 			CZFieldPool note. }.

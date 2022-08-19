@@ -1,4 +1,4 @@
 entry type testing
 isInProceedings
 
-	^ self type = #inproceedings
+	^ self type = InProceedings

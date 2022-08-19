@@ -1,3 +1,3 @@
 metadata
 inproceedings
-	^ #inproceedings
+	^ InProceedings

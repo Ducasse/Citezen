@@ -1,3 +1,3 @@
 metadata
 misc
-	^ #misc
+	^ Misc

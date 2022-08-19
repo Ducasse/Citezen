@@ -1,3 +1,3 @@
 metadata
 phdthesis
-	^ #phdthesis
+	^ PhDThesis 

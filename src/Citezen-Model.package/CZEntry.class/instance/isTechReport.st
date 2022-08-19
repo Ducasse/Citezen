@@ -1,4 +1,4 @@
 entry type testing
 isTechReport
 
-	^ self type = #techreport
+	^ self type = TechReport

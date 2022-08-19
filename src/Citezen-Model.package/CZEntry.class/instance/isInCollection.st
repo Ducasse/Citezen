@@ -1,4 +1,4 @@
 entry type testing
 isInCollection
 
-	^ self type = #inCollection
+	^ self type = InCollection

@@ -1,3 +1,3 @@
 metadata
 techreport
-	^ #techreport
+	^ TechReport

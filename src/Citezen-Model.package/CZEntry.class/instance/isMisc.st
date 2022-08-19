@@ -1,4 +1,4 @@
 entry type testing
 isMisc
 
-	^ self type = #misc
+	^ self type = Misc

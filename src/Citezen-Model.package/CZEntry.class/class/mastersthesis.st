@@ -1,3 +1,3 @@
 metadata
 mastersthesis
-	^ #mastersthesis
+	^ MastersThesis

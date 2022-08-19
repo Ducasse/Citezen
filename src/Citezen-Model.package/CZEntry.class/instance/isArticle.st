@@ -1,4 +1,4 @@
 entry type testing
 isArticle
 
-	^ self type = self class article
+	^ self type = Article

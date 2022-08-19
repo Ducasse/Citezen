@@ -1,3 +1,3 @@
 metadata
 inbook
-	^ #inbook
+	^ InBook

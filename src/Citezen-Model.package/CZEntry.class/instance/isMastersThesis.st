@@ -1,4 +1,4 @@
 entry type testing
 isMastersThesis
 
-	^ self type = #mastersthesis
+	^ self type = MastersThesis

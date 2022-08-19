@@ -1,4 +1,4 @@
 entry type testing
 isConference
 
-	^ self type = #conference
+	^ self type = Conference

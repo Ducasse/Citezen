@@ -1,3 +1,3 @@
 metadata
 article
-	^ #article
+	^ Article 

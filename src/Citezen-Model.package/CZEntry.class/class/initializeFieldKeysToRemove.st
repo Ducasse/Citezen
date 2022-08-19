@@ -1,4 +1,4 @@
-class initialization
+currently unused
 initializeFieldKeysToRemove
 	"When cleaning an entry, we remove the following fields"
 	

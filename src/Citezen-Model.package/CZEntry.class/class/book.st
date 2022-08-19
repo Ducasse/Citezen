@@ -1,3 +1,3 @@
 metadata
 book
-	^ #book
+	^ Book

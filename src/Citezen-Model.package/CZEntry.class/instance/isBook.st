@@ -1,4 +1,4 @@
 entry type testing
 isBook
 
-	^ self type = #book
+	^ self type = Book

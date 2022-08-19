@@ -1,4 +1,4 @@
 entry type testing
 isProceedings
 
-	^ self type = #proceedings
+	^ self type = Proceedings

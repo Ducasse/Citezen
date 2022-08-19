@@ -1,3 +1,3 @@
 metadata
 incollection
-	^ #incollection
+	^ InCollection

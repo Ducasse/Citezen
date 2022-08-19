@@ -1,3 +1,3 @@
 metadata
 booklet
-	^ #booklet
+	^ Booklet

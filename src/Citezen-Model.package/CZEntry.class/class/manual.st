@@ -1,3 +1,3 @@
 metadata
 manual
-	^ #manual
+	^ Manual

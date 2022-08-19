@@ -8,7 +8,7 @@
 		"teamMemberPatterns"
 	],
 	"pools" : [
-		"CZFieldPool"
+		"CZTypePool"
 	],
 	"classvars" : [
 		"ExtendedFieldKeys",
