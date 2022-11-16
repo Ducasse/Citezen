@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "NadineSaadi 11/16/2022 20:41",
+	"super" : "CZField",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DOI",
+	"type" : "normal"
+}
