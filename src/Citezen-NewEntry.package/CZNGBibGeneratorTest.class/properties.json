@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CZAbstractFileFormatGeneratorTest",
-	"category" : "Citezen-Reborn-FormattingVisitors",
+	"category" : "Citezen-NewEntry",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -10,6 +10,6 @@
 		"entry",
 		"entry2"
 	],
-	"name" : "CZBibGeneratorTest",
+	"name" : "CZNGBibGeneratorTest",
 	"type" : "normal"
 }
