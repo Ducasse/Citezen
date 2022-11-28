@@ -1,0 +1,41 @@
+{
+	"commentStamp" : "",
+	"super" : "CZEntry2",
+	"category" : "Citezen-Model2-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"editor",
+		"month",
+		"note",
+		"organization",
+		"pages",
+		"publisher",
+		"series",
+		"title",
+		"year",
+		"aeres",
+		"bookTitle",
+		"annote",
+		"aeresstatus",
+		"inria",
+		"halid",
+		"url",
+		"bdskurl1",
+		"acceptTotal",
+		"acceptNum",
+		"location",
+		"rate",
+		"selectif",
+		"misc",
+		"keywords"
+	],
+	"name" : "CZInProceedings",
+	"type" : "normal"
+}

@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "CZEntry2",
+	"category" : "Citezen-Model2-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"month",
+		"note",
+		"school",
+		"title",
+		"year"
+	],
+	"name" : "CZPhDThesis",
+	"type" : "normal"
+}

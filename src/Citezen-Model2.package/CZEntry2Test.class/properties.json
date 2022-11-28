@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Citezen-Model2-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entry",
+		"duplicateEntry",
+		"articleEntry",
+		"inproceedingsEntry",
+		"masterEntry",
+		"dirty",
+		"uqui",
+		"uqui2",
+		"longEntry",
+		"hani"
+	],
+	"name" : "CZEntry2Test",
+	"type" : "normal"
+}

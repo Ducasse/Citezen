@@ -1,0 +1,3 @@
+constants
+impactFactor
+	^ #impactfactor

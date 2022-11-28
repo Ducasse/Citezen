@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZAbstractFileFormatGeneratorTest",
+	"category" : "Citezen-Model2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZBibGenerator2Test",
+	"type" : "normal"
+}

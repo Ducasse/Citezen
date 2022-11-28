@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "CZEntry2",
+	"category" : "Citezen-Model2-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"howpublished",
+		"month",
+		"note",
+		"title",
+		"year"
+	],
+	"name" : "CZBooklet",
+	"type" : "normal"
+}

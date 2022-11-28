@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "CZEntry2",
+	"category" : "Citezen-Model2-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"bookTitle",
+		"editor",
+		"month",
+		"note",
+		"organization",
+		"pages",
+		"publisher",
+		"title",
+		"year"
+	],
+	"name" : "CZConference",
+	"type" : "normal"
+}
