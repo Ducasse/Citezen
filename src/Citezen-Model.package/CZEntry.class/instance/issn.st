@@ -1,4 +1,3 @@
 accessing - attributes
-url
-
-	^ self at: #url
+issn
+	^ self at: #issn

@@ -7,9 +7,16 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"entry",
-		"entry2",
-		"entry3"
+		"duplicateEntry",
+		"articleEntry",
+		"inproceedingsEntry",
+		"masterEntry",
+		"dirty",
+		"uqui",
+		"uqui2",
+		"longEntry",
+		"hani"
 	],
-	"name" : "CZEntryConverterTest",
+	"name" : "CZEntry2TestCopy",
 	"type" : "normal"
 }

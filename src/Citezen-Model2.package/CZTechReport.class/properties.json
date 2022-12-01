@@ -16,9 +16,12 @@
 		"note",
 		"number",
 		"cztype",
+		"inria",
 		"title",
 		"year",
-		"annote"
+		"annote",
+		"keywords",
+		"url"
 	],
 	"name" : "CZTechReport",
 	"type" : "normal"

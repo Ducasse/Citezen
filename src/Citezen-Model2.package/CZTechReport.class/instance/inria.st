@@ -1,0 +1,3 @@
+attri
+inria
+	^ inria

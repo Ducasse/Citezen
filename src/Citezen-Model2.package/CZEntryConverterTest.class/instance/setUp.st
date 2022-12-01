@@ -30,3 +30,17 @@ setUp
 	Url = {https://hal.inria.fr/hal-01093496},
 	Year = {2014}}
 ') entries first.
+
+ entry3 := (CZBibParser parse: 
+' @inproceedings{Robb10a,
+	Author = {Robbes, Romain and Pollet, Damien and Lanza, Michele},
+	Title = {Replaying IDE Interactions to Evaluate and Improve Change Prediction Approaches},
+	Booktitle = {7th IEEE Working Conference on Mining Software Repositories (MSR)},
+	Publisher = {IEEE Computer Society},
+	Month = may,
+	Year = {2010},
+	keywords = {lse-pub},
+	annote       = {internationalconference},
+	misc = {Acceptance rate: 16/51 = 31.4\%}
+}
+') entries first

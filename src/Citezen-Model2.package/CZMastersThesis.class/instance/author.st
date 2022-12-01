@@ -1,4 +1,4 @@
 accessing
-author1
+author
 
 	^ author

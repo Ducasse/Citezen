@@ -1,4 +1,3 @@
 accessing - attributes
-url
-
-	^ self at: #url
+misc
+	self at: #misc

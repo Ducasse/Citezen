@@ -1,4 +1,4 @@
-predefined accessing
+accessing - attributes
 year
 
-	^ self at: CZFieldPool year 
+	^ self at: #year
