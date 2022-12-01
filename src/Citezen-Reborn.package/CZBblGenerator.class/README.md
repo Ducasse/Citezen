@@ -16,7 +16,7 @@ Pay attention, we make sure that DOI and HALID are managed at the end (in case t
 
 
 | visitor bibset |
-bibset := CZBibParser parse: (FileStream readOnlyFileNamed: 'rmod.bib') contents.
+bibset := CZBibParser parse: ('rmod.bib' asFileReference) contents.
 bibset scope: CZSet standardDefinitions.
 visitor := CZBblGenerator new filename: 'rmod.bbl'.
 visitor visit: bibset.
