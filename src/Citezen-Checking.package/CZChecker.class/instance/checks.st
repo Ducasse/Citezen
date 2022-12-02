@@ -64,14 +64,22 @@ checks
 			ifTrue: [ | key |
 				key := entry key.
 				entry key: '###',(entry key, '_',(keys at: entry key) asString,'###' ).
-				errorStream nextPutAll: 'Warning: duplicate key: ', key, ' changed to: ', entry key; cr.
+				errorStream 
+					nextPutAll: 'Warning: duplicate key: ';
+					nextPutAll: key;
+					nextPutAll: ' changed to: ';
+					nextPutAll: entry key;
+					cr.
 		error := true ].
 		
 		"checks if the entry respects all the rules"	
 		rules do: [ :rule |
 			(rule check: entry)
 				ifFalse: [
-					errorStream nextPutAll: 'Error : entry does not respect the rule: ', rule explanation; cr.
+					errorStream 
+						nextPutAll: 'Error : entry does not respect the rule: ';
+						nextPutAll: rule explanation;
+						cr.
 					error := true.
 					toBeInclude := false ] ].	
 		
