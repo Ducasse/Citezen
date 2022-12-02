@@ -59,17 +59,16 @@ checks
 				toBeInclude := false ].
 		
 		"checks if the key is unique and changes it if it's not"
-		"keys at: entry key put: ((keys at: entry key ifAbsent: 0) + 1).
+		keys at: entry key put: ((keys at: entry key ifAbsent: 0) + 1).
 		((keys at: entry key) > 1)
 			ifTrue: [ | key |
 				key := entry key.
 				entry key: '###',(entry key, '_',(keys at: entry key) asString,'###' ).
 				errorStream nextPutAll: 'Warning: duplicate key: ', key, ' changed to: ', entry key; cr.
-		error := true ]."
+		error := true ].
 		
 		"checks if the entry respects all the rules"	
 		rules do: [ :rule |
-			"(rule value value: entry)"
 			(rule check: entry)
 				ifFalse: [
 					errorStream nextPutAll: 'Error : entry does not respect the rule: ', rule explanation; cr.
@@ -84,9 +83,7 @@ checks
 					nextPut: Character tab; 
 					nextPutAll: 'for :'; 
 					cr;
-					nextPutAll: "assoc value; "
-					
-					"(CZBibtexOutputer new entryToBibtexString:" entry	")";
+					nextPutAll: entry;
 					cr.
 			].
 			toBeInclude 
