@@ -4,7 +4,7 @@ Currently there is a problem with the generation because it is not simple to see
 
 
 | visitor bibset |
-bibset := CZBibParser parse: (FileStream readOnlyFileNamed: 'rmod.bib') contents.
+bibset := CZBibParser parse: ('rmod.bib' asFileReference) contents.
 bibset scope: CZSet standardDefinitions.
 visitor := CZLaTeXGenerator new filename: 'rmod-Generated.tex'.
 visitor visit: bibset.
