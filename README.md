@@ -41,7 +41,7 @@ spec
 ## Example script
 
 You can try this simple script to convert a bib file to HTML:
-```Smalltalk
+```
 | bibset visitor |
 bibset := CZBibParser parse: ('/Users/.../input.bib' asFileReference) contents.
 bibset scope: CZSet standardDefinitions.
