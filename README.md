@@ -38,7 +38,7 @@ spec
    with: [ spec repository: 'github://Ducasse/Citezen' ].
 ```
 
-## Example script
+## Sample script
 
 You can try this simple script to convert a bib file to HTML:
 ```
