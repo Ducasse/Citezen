@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "LouisDeloffre 12/4/2022 23:31",
+	"super" : "CZFileMerger",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZFileMergerWithDuplicateWarning",
+	"type" : "normal"
+}
