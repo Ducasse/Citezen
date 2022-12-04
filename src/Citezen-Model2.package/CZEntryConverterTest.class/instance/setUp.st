@@ -93,3 +93,9 @@ phdthesisEntry := (CZBibParser parse: '	@phdthesis{Gust00a,
 		Title = {Analyzing Execution-Time of Object-Oriented Programs Using Abstract Interpretation},
 		Year = {2000}
 	}') entries first.
+
+bookEntry:= (CZBibParser parse: '	@book{Duca10a,
+					author= {Stephane Ducasse},
+					title= {Botsinc: Learning programming in Squeak},
+					journal= {Apress},
+					year= {2005}}') entries first.

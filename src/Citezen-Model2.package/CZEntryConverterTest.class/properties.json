@@ -12,7 +12,8 @@
 		"unpublishedEntry",
 		"mastersthesisEntry",
 		"miscEntry",
-		"phdthesisEntry"
+		"phdthesisEntry",
+		"bookEntry"
 	],
 	"name" : "CZEntryConverterTest",
 	"type" : "normal"
