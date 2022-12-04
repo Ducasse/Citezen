@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NadineSaadi 12/4/2022 01:32",
 	"super" : "CZEntry2",
 	"category" : "Citezen-Model2-Model",
 	"classinstvars" : [ ],
@@ -13,7 +13,9 @@
 		"month",
 		"note",
 		"title",
-		"year"
+		"year",
+		"pages",
+		"annotation"
 	],
 	"name" : "CZUnpublished",
 	"type" : "normal"

@@ -1,18 +1,18 @@
 initialization
 testConvertTechReport
 
-| conv2 |
+| techreport |
 
-conv2 := (CZEntryConverter new convert: entry2).
-	self assert: conv2 class equals: CZTechReport.
-	self assert: conv2 author equals: entry2 author.
-	self assert: conv2 annote equals: entry2 annote.
-	self assert: conv2 inria equals: entry2 inria.
-	self assert: conv2 institution equals: entry2 institution.
-	self assert: conv2 title equals: entry2 title.
-	self assert: conv2 year equals: entry2 year.
-	self assert: conv2 keywords equals: entry2 keywords.
-	self assert: conv2 url equals: entry2 url.
+techreport := (CZEntryConverter new convert: techreportEntry).
+	self assert: techreport class equals: CZTechReport.
+	self assert: techreport author equals: techreportEntry author.
+	self assert: techreport annote equals: techreportEntry annote.
+	self assert: techreport inria equals: techreportEntry inria.
+	self assert: techreport institution equals: techreportEntry institution.
+	self assert: techreport title equals: techreportEntry title.
+	self assert: techreport year equals: techreportEntry year.
+	self assert: techreport keywords equals: techreportEntry keywords.
+	self assert: techreport url equals: techreportEntry url.
 	
 	
 

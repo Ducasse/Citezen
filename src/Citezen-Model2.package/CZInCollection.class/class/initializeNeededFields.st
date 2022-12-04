@@ -1,12 +1,5 @@
 initialization
 initializeNeededFields
 
-	author := CZAuthor new.
-	title := CZTitle new.
-	bookTitle := CZBookTitle new.
-	year := CZYear new.
+	self neededFields: #(author title bookTitle year)
 	
-	neededFields := OrderedCollection new.
-	neededFields add: author; add: title; add: bookTitle; add:year.
-	
-	^neededFields 

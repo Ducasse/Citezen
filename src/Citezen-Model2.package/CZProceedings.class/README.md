@@ -1,0 +1,1 @@
+This class represents an Entry of type Proceedings

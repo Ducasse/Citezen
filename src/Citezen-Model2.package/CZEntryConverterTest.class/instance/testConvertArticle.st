@@ -1,20 +1,20 @@
 initialization
 testConvertArticle
 
-	| conv |
-	conv := (CZEntryConverter new convert: entry).
-	self assert: conv class equals: CZArticle.
-	self assert: conv author equals: entry author.
-	self assert: conv title equals: entry title.
-	self assert: conv journal equals: entry journal.
-	self assert: conv volume equals: entry volume.
-	self assert: conv number equals: entry number.
-	self assert: conv year equals: entry year.
-	self assert: conv issn equals: entry issn.
-	self assert: conv pages equals: entry pages.
-	self assert: conv doi equals: entry doi.
-	self assert: conv publisher equals: entry publisher.
-	self assert: conv address equals: entry address.
+	| article |
+	article := (CZEntryConverter new convert: articleEntry).
+	self assert: article class equals: CZArticle.
+	self assert: article author equals: articleEntry author.
+	self assert: article title equals: articleEntry title.
+	self assert: article journal equals: articleEntry journal.
+	self assert: article volume equals: articleEntry volume.
+	self assert: article number equals: articleEntry number.
+	self assert: article year equals: articleEntry year.
+	self assert: article issn equals: articleEntry issn.
+	self assert: article pages equals: articleEntry pages.
+	self assert: article doi equals: articleEntry doi.
+	self assert: article publisher equals: articleEntry publisher.
+	self assert: article address equals: articleEntry address.
 	
 	
 	

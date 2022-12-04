@@ -6,9 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"entry",
-		"entry2",
-		"entry3"
+		"articleEntry",
+		"techreportEntry",
+		"inproceedingsEntry",
+		"unpublishedEntry",
+		"mastersthesisEntry",
+		"miscEntry",
+		"phdthesisEntry"
 	],
 	"name" : "CZEntryConverterTest",
 	"type" : "normal"

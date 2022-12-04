@@ -21,7 +21,7 @@ convert: aCZEntry
 		ifTrue: [ converted := CZInProceedings new ].
 	aCZEntry type = #manual
 		ifTrue: [ converted := CZManual new ].
-	aCZEntry type = #masterthesis
+	aCZEntry type = #mastersthesis
 		ifTrue: [ converted := CZMastersThesis new ].
 	aCZEntry type = #phdthesis
 		ifTrue: [ converted := CZPhDThesis new ].

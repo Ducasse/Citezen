@@ -1,3 +1,3 @@
-accessing - system attributes
+accessing
 booktitle: aCZField 
 	bookTitle := aCZField .

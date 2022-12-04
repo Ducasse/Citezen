@@ -1,3 +1,3 @@
-accessing - attributes
+accessing
 inria: aCZField 
 	inria:= aCZField 
