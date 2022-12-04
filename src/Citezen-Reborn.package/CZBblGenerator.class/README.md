@@ -15,8 +15,8 @@ to generate something like that.....
 Pay attention, we make sure that DOI and HALID are managed at the end (in case they were not specified).
 
 
-| visitor bibset |
+\| bibset generator \|
 bibset := CZBibParser parse: ('rmod.bib' asFileReference) contents.
 bibset scope: CZSet standardDefinitions.
-visitor := CZBblGenerator new filename: 'rmod.bbl'.
-visitor visit: bibset.
+generator := CZBblGenerator new.
+generator save: bibset to: 'rmod-Generated.bbl'.
