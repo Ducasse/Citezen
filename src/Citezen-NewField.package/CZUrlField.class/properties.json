@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZField",
+	"category" : "Citezen-NewField",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZUrlField",
+	"type" : "normal"
+}
