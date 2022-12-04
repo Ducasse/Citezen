@@ -1,4 +1,4 @@
-visitor-double dispatch
-acceptVisitor: aVisitor
-
-	aVisitor visitEntry: self
+visiting
+acceptVisitor:aVisitor
+	aVisitor visitEntry:self
+ 
