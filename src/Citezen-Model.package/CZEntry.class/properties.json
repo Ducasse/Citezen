@@ -17,10 +17,7 @@
 	"instvars" : [
 		"type",
 		"key",
-		"fields",
-		"author",
-		"title",
-		"journal"
+		"fields"
 	],
 	"name" : "CZEntry",
 	"type" : "normal"

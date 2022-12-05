@@ -3,7 +3,7 @@ testConvertPhDThesis
 
 |phdthesis|
 	phdthesis := (CZEntryConverter new convert: phdthesisEntry ).
-	self assert: phdthesis class equals: CZPhDThesis.
+	self assert: phdthesis class equals: CZPhDThesis2.
 	self assert: phdthesis author equals: phdthesisEntry author.
 	self assert: phdthesis keywords equals: phdthesisEntry keywords.
 	self assert: phdthesis month equals: phdthesisEntry month.

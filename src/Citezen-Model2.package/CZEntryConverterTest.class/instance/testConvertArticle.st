@@ -3,7 +3,7 @@ testConvertArticle
 
 	| article |
 	article := (CZEntryConverter new convert: articleEntry).
-	self assert: article class equals: CZArticle.
+	self assert: article class equals: CZArticle2.
 	self assert: article author equals: articleEntry author.
 	self assert: article title equals: articleEntry title.
 	self assert: article journal equals: articleEntry journal.

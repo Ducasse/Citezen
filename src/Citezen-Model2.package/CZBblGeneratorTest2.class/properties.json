@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "CZAbstractFileFormatGeneratorTest",
+	"super" : "CZAbstractFileFormatGeneratorTest2",
 	"category" : "Citezen-Model2-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],

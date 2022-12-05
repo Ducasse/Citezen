@@ -4,7 +4,7 @@ testConvertUnpublished
 | unpublished |
 
 unpublished := (CZEntryConverter new convert: unpublishedEntry).
-	self assert: unpublished class equals: CZUnpublished.
+	self assert: unpublished class equals: CZUnpublished2.
 	self assert: unpublished author equals: unpublishedEntry author.
 	self assert: unpublished title equals: unpublishedEntry title.
 	self assert: unpublished pages equals: unpublishedEntry pages.

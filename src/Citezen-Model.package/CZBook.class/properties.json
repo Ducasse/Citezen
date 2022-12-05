@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "NadineSaadi 12/4/2022 01:30",
+	"super" : "CZEntry",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"edition",
+		"editor",
+		"month",
+		"note",
+		"publisher",
+		"series",
+		"title",
+		"volume",
+		"year",
+		"journal"
+	],
+	"name" : "CZBook",
+	"type" : "normal"
+}

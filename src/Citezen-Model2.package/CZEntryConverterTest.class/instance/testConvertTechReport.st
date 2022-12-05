@@ -4,7 +4,7 @@ testConvertTechReport
 | techreport |
 
 techreport := (CZEntryConverter new convert: techreportEntry).
-	self assert: techreport class equals: CZTechReport.
+	self assert: techreport class equals: CZTechReport2.
 	self assert: techreport author equals: techreportEntry author.
 	self assert: techreport annote equals: techreportEntry annote.
 	self assert: techreport inria equals: techreportEntry inria.

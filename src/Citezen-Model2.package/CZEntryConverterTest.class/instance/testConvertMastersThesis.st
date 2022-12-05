@@ -4,7 +4,7 @@ testConvertMastersThesis
 | mastersthesis |
 
 mastersthesis := (CZEntryConverter new convert: mastersthesisEntry).
-	self assert: mastersthesis class equals: CZMastersThesis.
+	self assert: mastersthesis class equals: CZMastersThesis2.
 	self assert: mastersthesis author equals: mastersthesisEntry author.
 	self assert: mastersthesis title equals: mastersthesisEntry title.
 	self assert: mastersthesis year equals: mastersthesisEntry year.

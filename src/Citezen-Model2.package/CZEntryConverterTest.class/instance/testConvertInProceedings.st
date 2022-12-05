@@ -4,7 +4,7 @@ testConvertInProceedings
 | inproceedings |
 
 	inproceedings := (CZEntryConverter new convert: inproceedingsEntry).
-	self assert: inproceedings class equals: CZInProceedings .
+	self assert: inproceedings class equals: CZInProceedings2 .
 	self assert: inproceedings author equals: inproceedingsEntry author.
 	self assert: inproceedings title equals: inproceedingsEntry title.
 	self assert: inproceedings booktitle equals: inproceedingsEntry booktitle.

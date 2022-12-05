@@ -4,34 +4,34 @@ convert: aCZEntry
 	| converted |
 	
 	aCZEntry type = #article
-		ifTrue: [ converted := CZArticle new ].
+		ifTrue: [ converted := CZArticle2 new ].
 	aCZEntry type = #book
-		ifTrue: [ converted := CZBook new ].
+		ifTrue: [ converted := CZBook2 new ].
 	aCZEntry type = #booklet
-		ifTrue: [ converted := CZBooklet new ].
+		ifTrue: [ converted := CZBooklet2 new ].
 	aCZEntry type = #conference
-		ifTrue: [ converted := CZConference new ].
+		ifTrue: [ converted := CZConference2 new ].
 	aCZEntry type = #editor
-		ifTrue: [ converted := CZEditor new ].
+		ifTrue: [ converted := CZEditor2 new ].
 	aCZEntry type = #inbook
-		ifTrue: [ converted := CZInBook new ].
+		ifTrue: [ converted := CZInBook2 new ].
 	aCZEntry type = #incollection
-		ifTrue: [ converted := CZInCollection new ].
+		ifTrue: [ converted := CZInCollection2 new ].
 	aCZEntry type = #inproceedings
-		ifTrue: [ converted := CZInProceedings new ].
+		ifTrue: [ converted := CZInProceedings2 new ].
 	aCZEntry type = #manual
-		ifTrue: [ converted := CZManual new ].
+		ifTrue: [ converted := CZManual2 new ].
 	aCZEntry type = #mastersthesis
-		ifTrue: [ converted := CZMastersThesis new ].
+		ifTrue: [ converted := CZMastersThesis2 new ].
 	aCZEntry type = #phdthesis
-		ifTrue: [ converted := CZPhDThesis new ].
+		ifTrue: [ converted := CZPhDThesis2 new ].
 	aCZEntry type = #proceedings
-		ifTrue: [ converted := CZProceedings new ].
+		ifTrue: [ converted := CZProceedings2 new ].
 	aCZEntry type = #techreport
-		ifTrue: [ converted := CZTechReport new ].
+		ifTrue: [ converted := CZTechReport2 new ].
 	aCZEntry type = #unpublished
-		ifTrue: [ converted := CZUnpublished new ].
+		ifTrue: [ converted := CZUnpublished2 new ].
 	aCZEntry type = #misc
-		ifTrue: [ converted := CZMisc new ].
+		ifTrue: [ converted := CZMisc2 new ].
 	self convertFieldsOf: aCZEntry to: converted.
 	^ converted 
