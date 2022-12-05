@@ -4,5 +4,5 @@ merge: fileName
     inputFiles do: [:each | self load: each].
     duplicateIdentifier := CZDuplicateIdentifier new.
     fileSaver := CZFileSaver new. 
-    bibset := duplicateIdentifier withoutInternalKeyDuplicates: bibset.
+    bibset := duplicateIdentifier withoutInternalTitleDuplicates: bibset.
     fileSaver bibset: bibset ; saveTo: fileName

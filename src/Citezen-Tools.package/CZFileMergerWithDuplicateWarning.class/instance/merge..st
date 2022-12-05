@@ -1,16 +1,19 @@
 actions
 merge: fileName
-    |fileSaver withoutDuplications duplicateIdentifier listDoublon affichage  |
-    inputFiles do: [:each | self load: each].
-	 withoutDuplications := CZSet new.
-  	 listDoublon := Set new.  
-	 fileSaver := CZFileSaver new.
-	 bibset do: [:each | 
-				(withoutDuplications anySatisfy: [:ent | (ent at: #title) value = (each at: #title) value])
-					ifFalse: [withoutDuplications addEntry: each]
-					ifTrue: [ listDoublon add: (each key value)]
-					].
-	 affichage := 'Vous avez ', (listDoublon size asString), ' doublon(s) qui ont comme clef : ', (listDoublon asString).
-	
-	 affichage asMorph openInWindow.
-    fileSaver bibset: bibset ; saveTo: fileName
+   |duplicateIdentifier stream listDoublon|
+   inputFiles do: [:each | self load: each].
+   listDoublon := CZSet new.
+	stream := WriteStream on: ByteString new.
+	duplicateIdentifier := CZDuplicateIdentifier new.
+   listDoublon := duplicateIdentifier listOfDuplicatesKey: bibset.
+	(listDoublon entries) printElementsOn: stream.
+    
+	('Vous avez ', (listDoublon size asString), ' doublon(s) qui ont comme clef : ', (stream contents)) asMorph openInWindow.
+    
+	bibset addEntry: ((CZEntry type:'COMMENT')
+                key: #Comment;
+                at: #comment put: 'Dupplication';
+                at: #number_Of_Dupplication put: listDoublon size;
+                at: #Key_Of_Dupplication_Item put: stream contents).
+    
+	 CZFileSaver new bibset: bibset ; saveTo: fileName
