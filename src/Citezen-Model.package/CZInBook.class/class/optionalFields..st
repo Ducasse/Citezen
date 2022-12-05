@@ -1,4 +1,4 @@
 accessing
-optionalFields: anObject
+optionalFields: fields
 
-	optionalFields := anObject
+	optionalFields := fields

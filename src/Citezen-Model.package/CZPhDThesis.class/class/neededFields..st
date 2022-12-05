@@ -1,4 +1,4 @@
 accessing
-neededFields: anObject
+neededFields: fields
 
-	neededFields := anObject
+	neededFields := fields
