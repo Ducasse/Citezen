@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"rules"
+		"rules",
+		"logs"
 	],
 	"name" : "CZChecker2",
 	"type" : "normal"
