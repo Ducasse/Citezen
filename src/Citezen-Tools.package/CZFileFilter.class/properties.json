@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZFileFilter",
+	"type" : "normal"
+}
