@@ -1,0 +1,4 @@
+accessing
+bibSet
+
+	^ bibSet
