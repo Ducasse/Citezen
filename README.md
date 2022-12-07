@@ -20,6 +20,7 @@ $ git clone git@github.com:Ducasse/Citezen.git
 $ cd Citezen
 $ ./scripts/build.sh
 ```
+
 ## Loading for dev
 
 ```
@@ -35,4 +36,15 @@ Metacello new
 spec 
    baseline: 'Citezen' 
    with: [ spec repository: 'github://Ducasse/Citezen' ].
+```
+
+## Sample script
+
+You can try this simple script to convert a bib file to HTML:
+```
+| bibset generator |
+bibset := CZBibParser parse: ('/Users/.../input.bib' asFileReference) contents.
+bibset scope: CZSet standardDefinitions.
+generator := CZHTMLGenerator new.
+generator save: bibset to: '/Users/.../output.html'.
 ```

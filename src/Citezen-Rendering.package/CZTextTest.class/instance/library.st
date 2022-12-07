@@ -1,0 +1,4 @@
+tests
+library
+
+	^ BibPhraseLibrary default
