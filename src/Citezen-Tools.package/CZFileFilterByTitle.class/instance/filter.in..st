@@ -1,6 +1,6 @@
 accessing
-filter: author in: aString
-      |wrongListFilter fileRef filterSet|
+filter: title in: aString
+      |fileRef filterSet|
 	fileRef := (FileLocator workingDirectory / aString) asFileReference.
 	fileRef exists ifFalse: [ 
 		Stdio stdout
@@ -8,7 +8,7 @@ filter: author in: aString
 			nextPutAll: aString;
 			nextPutAll: ' is not found.'.
 		^ self ].
-	bibset := [ CZBibParser bibFromFileReference: fileRef ]
+		bibset := [ CZBibParser bibFromFileReference: fileRef ]
 		      on: SmaCCParserError
 		      do: [ :ex | 
 			      | context |
@@ -29,9 +29,8 @@ filter: author in: aString
 						      nextPutAll:
 							      ((context at: 1) at: 3) value allButFirst allButLast.
 					      ^ self ] ].
-     wrongListFilter := CZSet new.
 	  filterSet := CZSet new.
-     (bibset entries) do: [:each |  author = ((each at: #title value) rawValue)
+     (bibset entries) do: [:each |  title = ((each at: #title value) rawValue)
 					ifTrue: [ filterSet addEntry: each ]].
         
     ^ CZFileSaver new bibset: filterSet ; saveTo: aString

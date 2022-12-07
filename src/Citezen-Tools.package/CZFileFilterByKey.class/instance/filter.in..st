@@ -1,6 +1,6 @@
 accessing
 filter: key in: aString
-      |wrongListFilter fileRef filterSet|
+      |fileRef filterSet|
 	fileRef := (FileLocator workingDirectory / aString) asFileReference.
 	fileRef exists ifFalse: [ 
 		Stdio stdout
@@ -29,8 +29,7 @@ filter: key in: aString
 						      nextPutAll:
 							      ((context at: 1) at: 3) value allButFirst allButLast.
 					      ^ self ] ].
-     wrongListFilter := CZSet new.
-	  filterSet := CZSet new.
+     filterSet := CZSet new.
      (bibset entries) do: [:each | (key = each key value)
 					ifTrue: [ filterSet addEntry: each ]].
         
