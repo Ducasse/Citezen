@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "CZLoggable",
+	"super" : "Object",
 	"category" : "Citezen-Checking-Reborn",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"message"
-	],
-	"name" : "CZLog",
+	"instvars" : [ ],
+	"name" : "CZLoggable",
 	"type" : "normal"
 }
