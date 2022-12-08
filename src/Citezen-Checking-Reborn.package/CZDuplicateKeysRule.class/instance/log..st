@@ -1,7 +1,7 @@
 validation
-addLog: key
+log: key
 
 	| message log |
 	message := ('"', key, '"', ' entry key is duplicated').
 	log := CZWarning of: message.
-	logs addLog: log.
+	logs add: log.
