@@ -1,5 +1,6 @@
 accessing
 testComputeEntryKeys
+
 	| checker entryKeys |
 	checker := CZChecker2 new.
 	entryKeys := checker computeEntryKeys: bibSet.

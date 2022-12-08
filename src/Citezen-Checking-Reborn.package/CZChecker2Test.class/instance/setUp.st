@@ -1,5 +1,6 @@
 initialization
 setUp
+
 	| entries |
 	super setUp.
 	

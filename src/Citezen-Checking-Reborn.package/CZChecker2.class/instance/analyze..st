@@ -1,5 +1,6 @@
 initialization
 analyze: aBibSet
+
 	| analyzedBibSet |
 	analyzedBibSet := CZAnalyzedSet new.
 	analyzedBibSet bibSet: aBibSet.

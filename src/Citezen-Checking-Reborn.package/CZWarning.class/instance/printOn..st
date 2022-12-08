@@ -1,4 +1,5 @@
 printing
 printOn: aStream
-	aStream nextPutAll: '[ WARN] '.
+
+	aStream nextPutAll: '[WARN] '.
 	super printOn: aStream.
