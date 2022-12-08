@@ -1,3 +1,3 @@
 printing
 asString
-	^ logs
+	^ (self printOn: (WriteStream new)) contents
