@@ -5,5 +5,5 @@ check: aBibSet
 	entryKeys := aBibSet entryKeys.
 	entryKeys keysDo: [ :key |
 		(entryKeys at: key) > 1
-			ifTrue: [ self log: key ]].
+			ifTrue: [ self logEntryKey: key ]].
 	^ logs
