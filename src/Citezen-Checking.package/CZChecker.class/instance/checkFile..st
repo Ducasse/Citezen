@@ -9,5 +9,4 @@ checkFile: aString
 
 	errorStream := WriteStream on: String new.
 	[eof] whileFalse: [ self bibtexBlockToCZEntry: self getBibtexBlock ].
-	self halt.
 	^ self checks

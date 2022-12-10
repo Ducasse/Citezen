@@ -18,7 +18,12 @@ checkMacroReferenced: aCZField
 	macroSymbols do: [ :each |
 		(macroKeys includes: each)
 			ifFalse: [ 
-				errorStream nextPutAll: 'Warning: Removes field: ', aCZField key, ' references this undefined macro: ', each; cr.
+				errorStream 
+					nextPutAll: 'Warning: Removes field: ';
+					nextPutAll: aCZField key;
+					nextPutAll: ' references this undefined macro: ';
+					nextPutAll: each;
+					cr.
 				error := true ] ].
 	
 	^ error not
