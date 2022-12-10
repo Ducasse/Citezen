@@ -1,5 +1,7 @@
 as yet unclassified
 computeEntryKeys: aBibSet
+	"Compute a dictionary with entry keys and their number of occurences"
+
 	| entryKeys |
 	entryKeys := Dictionary new.
 	aBibSet entries do: [ :entry | 

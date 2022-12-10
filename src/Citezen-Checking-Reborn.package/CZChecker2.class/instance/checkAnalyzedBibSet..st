@@ -1,5 +1,5 @@
 initialization
-checkAnalyzedBibSet: aBibSet
+checkAnalyzedBibSet: anAnalyzedBibSet
 
-	rules do: [ :rule | logs add: (rule check: aBibSet) ].
+	rules do: [ :rule | logs add: (rule check: anAnalyzedBibSet) ].
 	^ logs

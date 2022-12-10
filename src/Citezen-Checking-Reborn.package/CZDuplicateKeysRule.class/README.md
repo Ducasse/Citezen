@@ -1,0 +1,1 @@
+Rule warning about every duplicated entry keys.
