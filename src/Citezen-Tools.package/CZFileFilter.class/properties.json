@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "sortFile 12/7/2022 13:09",
+	"super" : "CZTool",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZFileFilter",
+	"type" : "normal"
+}
