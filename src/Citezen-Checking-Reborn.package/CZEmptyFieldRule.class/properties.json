@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "GabinLaigle 12/10/2022 03:35",
+	"super" : "CZRule2",
+	"category" : "Citezen-Checking-Reborn",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZEmptyFieldRule",
+	"type" : "normal"
+}

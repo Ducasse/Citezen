@@ -1,0 +1,1 @@
+Rule warning about each empty field.

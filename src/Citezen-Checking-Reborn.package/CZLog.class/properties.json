@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "GabinLaigle 12/10/2022 03:41",
+	"super" : "CZLoggable",
+	"category" : "Citezen-Checking-Reborn",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "CZLog",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "GabinLaigle 12/10/2022 03:21",
+	"super" : "Object",
+	"category" : "Citezen-Checking-Reborn",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rules",
+		"logs"
+	],
+	"name" : "CZChecker2",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "GabinLaigle 12/10/2022 03:37",
+	"super" : "Object",
+	"category" : "Citezen-Checking-Reborn",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bibSet",
+		"entryKeys"
+	],
+	"name" : "CZAnalyzedSet",
+	"type" : "normal"
+}
