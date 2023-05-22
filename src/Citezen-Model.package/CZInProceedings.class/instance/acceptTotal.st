@@ -1,0 +1,4 @@
+accessing
+acceptTotal
+
+	^ acceptTotal

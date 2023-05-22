@@ -1,0 +1,3 @@
+constants
+HALID
+	^ #'hal-id'

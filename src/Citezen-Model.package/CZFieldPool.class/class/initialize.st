@@ -20,11 +20,9 @@ initialize
 	Volume := self volume.
 	Title := self title.
 	ImpactFactor := self impactFactor. 
-	DOI := self DOI.
 	HALID := self HALID.
 	HALURL := self HALURL.
 	"normally we do not need impact factor and HALURL"
-	URL := self URL.
 	Misc := self misc.
 	Note := self note. 
 	Month := self month.

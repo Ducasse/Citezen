@@ -1,0 +1,1 @@
+This class represents an Entry. (Its subclasses represent the different existant entries on Citezen).

@@ -1,4 +1,4 @@
-predefined accessing
+accessing - attributes
 author
 
 	^ self at: #author

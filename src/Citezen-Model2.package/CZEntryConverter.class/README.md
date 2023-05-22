@@ -1,0 +1,2 @@
+This class is used to convert an CZEntry into a more specific entry (CZArticle, CZBook, CZInProceedings, etc ...)
+I created this while implementing a new hierarchy for Entries and Fields, which will change many aspects and functions of this project as it is practically its root, so this converter will be really helpful
