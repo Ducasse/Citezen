@@ -1,4 +1,4 @@
-formats-fields
+accessing
 author: aField
 	| authors andSep |
 	authors := (CZAuthorParser parse: aField value) collect: [:each | BibLiteralPhrase text: each fullName].
