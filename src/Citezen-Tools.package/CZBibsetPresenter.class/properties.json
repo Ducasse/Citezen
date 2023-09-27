@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "NicolasA 9/19/2023 17:34",
+	"super" : "SpPresenter",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lstEntries",
+		"lblEntries",
+		"spEntry",
+		"checkEntryIcon",
+		"checkEntryBlock"
+	],
+	"name" : "CZBibsetPresenter",
+	"type" : "normal"
+}

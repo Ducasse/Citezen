@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "NicolasA 9/19/2023 14:56",
+	"super" : "SpPresenter",
+	"category" : "Citezen-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"txtAuthors",
+		"txtTitle",
+		"txtYear",
+		"txtVenue",
+		"txtKind",
+		"btnSave",
+		"btnInspect",
+		"czEntry"
+	],
+	"name" : "CZEntryPresenter",
+	"type" : "normal"
+}
