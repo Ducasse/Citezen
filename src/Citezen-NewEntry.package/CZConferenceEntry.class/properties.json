@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CZEntry",
+	"category" : "Citezen-NewEntry",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CZConferenceEntry",
+	"type" : "normal"
+}

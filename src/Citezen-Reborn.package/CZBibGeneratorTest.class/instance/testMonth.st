@@ -2,8 +2,8 @@ tests
 testMonth
 	"self debug: #testMonth"
 
-	| result entry |
-	entry := CZBibParser parse: '@article{Abde14a,
+	| result  entry21 |
+	entry21 := CZBibParser parse: '@article{Abde14a,
 	Annote = {internationaljournal},
 	Author = {Hani Abdeen and St\''ephane Ducasse and Damien Pollet and Ilham Alloui and Jean-R\''emy Falleri},
 	Hal-Id = {hal-00957695},
@@ -14,7 +14,7 @@ testMonth
 	Title = {The Package Blueprint: Visually analyzing and quantifying packages dependencies},
 	Url = {http://rmod.inria.fr/archives/papers/Abde14a-Official-PackageBlueprint-SCP.pdf},
 	Year = {2014}}'.
-	result := (self generatorClass new visit: entry) contents.
+	result := (self generatorClass new visit: entry21) contents.
  	self assert: result trimBoth withInternalLineEndings equals: 
  '@article{Abde14a,
   author = {Hani Abdeen and St\''ephane Ducasse and Damien Pollet and Ilham Alloui and Jean-R\''emy Falleri},

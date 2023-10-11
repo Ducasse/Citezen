@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CZNGVisitor",
+	"category" : "Citezen-NewEntry",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"outputStream",
+		"expandOption"
+	],
+	"name" : "CZNGBibGenerator",
+	"type" : "normal"
+}
