@@ -18,6 +18,7 @@ Tests are all green on my machine. No idea why some are failing on travis
 ```
 $ git clone git@github.com:Ducasse/Citezen.git
 $ cd Citezen
+$ chmod a+x ./scripts/build.sh
 $ ./scripts/build.sh
 ```
 
