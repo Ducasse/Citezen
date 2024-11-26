@@ -1,3 +1,3 @@
-formats-fields
+accessing
 editor: aField
 	^ self author: aField

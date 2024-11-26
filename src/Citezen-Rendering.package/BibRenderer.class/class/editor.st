@@ -1,4 +1,4 @@
-phrases-partial
+accessing
 editor
 	^ BibSequencePhrase new
 		addField: #editor;
