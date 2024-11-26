@@ -1,0 +1,4 @@
+action
+inspectEntry
+
+	czEntry inspect
