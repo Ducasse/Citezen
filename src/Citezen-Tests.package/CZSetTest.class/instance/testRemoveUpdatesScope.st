@@ -2,7 +2,7 @@ testing
 testRemoveUpdatesScope
 	| otherSet entry |
 	otherSet := CZSet new.
-	entry := (CZEntry type: CZEntry article) key: #toBeMovedToOtherSet.
+	entry := (CZArticle new) key: #toBeMovedToOtherSet.
 	bibset addEntry: entry.
 	entry moveToBibSet: otherSet.
 	self deny: (bibset entries includes: entry).

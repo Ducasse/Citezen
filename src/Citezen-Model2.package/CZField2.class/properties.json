@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CZScoped",
+	"category" : "Citezen-Model2-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"value"
+	],
+	"name" : "CZField2",
+	"type" : "normal"
+}
