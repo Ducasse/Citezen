@@ -1,0 +1,4 @@
+visiting
+setAuthorDisplayAsFullName
+
+	expandOption := #useDisplayFullName

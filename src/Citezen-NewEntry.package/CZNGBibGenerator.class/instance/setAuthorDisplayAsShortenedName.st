@@ -1,0 +1,4 @@
+visiting
+setAuthorDisplayAsShortenedName
+
+	expandOption := #useDisplayShortenedName
