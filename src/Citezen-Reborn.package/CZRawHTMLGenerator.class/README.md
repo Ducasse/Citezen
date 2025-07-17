@@ -1,0 +1,1 @@
+Just emit HTML for an entry without wrapping it around <li>
