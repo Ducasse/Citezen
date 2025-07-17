@@ -41,4 +41,5 @@ toHtmlTable
 		at: #hash put: '#';
 		at: #endash put: '&#8211;';
 		at: #emdash put: '&#8212;'.
+	conversionTable := table.
 	^ table

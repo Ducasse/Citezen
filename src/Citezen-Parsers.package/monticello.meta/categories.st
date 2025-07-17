@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Citezen-Parsers'!
+self packageOrganizer ensurePackage: #'Citezen-Parsers' withTags: #()!

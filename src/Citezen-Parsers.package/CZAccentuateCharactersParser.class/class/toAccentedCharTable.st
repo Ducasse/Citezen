@@ -39,6 +39,6 @@ toAccentedCharTable
 		at: #percent put: '%';
 		at: #hash put: '#'	;
 		at: #endash put: '--'	"	;
-		at: #emdash put: '&#8212'	"
-	.
+		at: #emdash put: '&#8212'	".
+	conversionTable := table.	
 	^ table
