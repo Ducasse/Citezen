@@ -1,0 +1,2 @@
+entries
+emitEntryFooter: anEntry
