@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Citezen-Stef'!
+self packageOrganizer ensurePackage: #'Citezen-Stef' withTags: #()!

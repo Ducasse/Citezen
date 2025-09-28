@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CZAbstractFileFormatGeneratorTest",
+	"category" : "Citezen-Reborn-FormattingVisitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"renderer",
+		"book"
+	],
+	"name" : "CZLaTeXGeneratorTest2",
+	"type" : "normal"
+}

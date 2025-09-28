@@ -1,0 +1,3 @@
+constants
+ISBN
+	^ #isbn

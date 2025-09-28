@@ -29,6 +29,7 @@ initialize
 	Note := self note. 
 	Month := self month.
 	Year := self year.
+	ISBN := self isbn.
 	DefaultFields := {
 		self author.
 		self title.
@@ -50,5 +51,6 @@ initialize
 		self DOI.
 		self HALID.
 		self misc.
+		self isbn
 	}
 	
