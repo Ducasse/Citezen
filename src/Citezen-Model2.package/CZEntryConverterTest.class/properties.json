@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Citezen-Model2-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"articleEntry",
+		"techreportEntry",
+		"inproceedingsEntry",
+		"unpublishedEntry",
+		"mastersthesisEntry",
+		"miscEntry",
+		"phdthesisEntry",
+		"bookEntry"
+	],
+	"name" : "CZEntryConverterTest",
+	"type" : "normal"
+}

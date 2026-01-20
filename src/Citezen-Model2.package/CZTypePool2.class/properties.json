@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "SharedPool",
+	"category" : "Citezen-Model2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Article",
+		"Book",
+		"Booklet",
+		"Conference",
+		"Editor",
+		"InBook",
+		"InCollection",
+		"InProceedings",
+		"Manual",
+		"MastersThesis",
+		"Misc",
+		"PhDThesis",
+		"Proceedings",
+		"TechReport",
+		"Unpublished"
+	],
+	"instvars" : [ ],
+	"name" : "CZTypePool2",
+	"type" : "normal"
+}

@@ -1,4 +1,4 @@
-predefined accessing
+accessing - attributes
 url
 
 	^ self at: #url

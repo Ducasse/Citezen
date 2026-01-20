@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "NadineSaadi 12/4/2022 01:32",
+	"super" : "CZEntry",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"address",
+		"author",
+		"month",
+		"note",
+		"school",
+		"title",
+		"year",
+		"abstract",
+		"annote"
+	],
+	"name" : "CZMastersThesis",
+	"type" : "normal"
+}

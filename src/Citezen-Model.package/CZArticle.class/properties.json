@@ -1,0 +1,31 @@
+{
+	"commentStamp" : "NadineSaadi 12/4/2022 01:30",
+	"super" : "CZEntry",
+	"category" : "Citezen-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"neededFields",
+		"optionalFields"
+	],
+	"instvars" : [
+		"author",
+		"journal",
+		"month",
+		"note",
+		"number",
+		"pages",
+		"title",
+		"volume",
+		"year",
+		"Aeres",
+		"Aeresstatus",
+		"Annote",
+		"issn",
+		"doi",
+		"publisher",
+		"address"
+	],
+	"name" : "CZArticle",
+	"type" : "normal"
+}
