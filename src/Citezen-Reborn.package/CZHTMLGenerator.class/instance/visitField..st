@@ -2,7 +2,6 @@ visiting
 visitField: aField
 
 	self outputStream nextPutAll: '<span class="', aField key,'">'.
-	(#(#pdf #url #doi) includes: aField key) ifTrue: [ Transcript show: aField; cr ]. 
 	aField isPDF
 			ifTrue: [outputStream nextPutAll: '<a href="'].
 	aField isURL
