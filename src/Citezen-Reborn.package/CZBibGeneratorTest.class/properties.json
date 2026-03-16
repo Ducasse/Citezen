@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"bibset",
+		"entry",
+		"entry2"
+	],
 	"name" : "CZBibGeneratorTest",
 	"type" : "normal"
 }

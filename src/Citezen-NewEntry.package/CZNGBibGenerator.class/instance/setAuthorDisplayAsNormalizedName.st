@@ -1,0 +1,4 @@
+visiting
+setAuthorDisplayAsNormalizedName
+
+	expandOption := #useDisplayNormalizedName
