@@ -1,3 +1,3 @@
 accessing
 phraseFor: anEntry
-	^ self library phraseFor: anEntry
+	^ self class phraseFor: anEntry
